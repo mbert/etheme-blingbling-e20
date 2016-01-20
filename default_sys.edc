@@ -116,6 +116,7 @@ group {
 	    text {
 	       style:    "sys_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }
@@ -352,6 +353,7 @@ group {
 	    text {
 	       style:    "sys_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }
@@ -588,6 +590,7 @@ group {
 	    text {
 	       style:    "sys_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }
@@ -824,6 +827,7 @@ group {
 	    text {
 	       style:    "sys_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }
@@ -1060,6 +1064,7 @@ group {
 	    text {
 	       style:    "sys_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }

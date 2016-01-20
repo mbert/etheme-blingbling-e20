@@ -125,6 +125,7 @@ group {
 	    color_class: "menu_title_active";
 	    text {
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }
@@ -630,6 +631,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
 	       text_class: "menu_item";
 	    }
@@ -799,6 +801,13 @@ group {
 	    visible:  1;
 	    color:    255 255 255 255;
 	 }
+      }
+      part {
+         name: "events"; type: RECT;
+            description {
+               state: "default";
+               color: 0 0 0 0;
+         }
       }
    }
    programs {

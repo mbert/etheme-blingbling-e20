@@ -166,6 +166,7 @@ group {
                font: "Sans:style=Bold,Edje-Vera-Bold";
 	       size:     8;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    1.0 0.0;
 	       text_class: "module_small";
 	    }
@@ -197,6 +198,7 @@ group {
 	       font:     "Edje-Vera-Bold";
 	       size:     8;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    1.0 0.0;
                text_class: "module_small";
 	    }
@@ -345,6 +347,7 @@ group {
                font: "Sans:style=Bold,Edje-Vera-Bold";
                size: 10;
                min: 1 1;
+               ellipsis: -1;
                align: 0.5 1.0;
                text_class: "module_large";
             }
@@ -376,6 +379,7 @@ group {
                font: "Sans:style=Bold,Edje-Vera-Bold";
                size: 10;
                min: 1 1;
+               ellipsis: -1;
                align: 0.5 1.0;
                text_class: "module_large";
             }

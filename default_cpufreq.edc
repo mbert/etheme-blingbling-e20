@@ -311,6 +311,7 @@ group {
 	       size: 8;
 	       align: 0.5 0.5;
 	       min: 1 1;
+               ellipsis: -1;
                text_class: "module_small";	       
 	    }
 	 }

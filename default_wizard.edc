@@ -164,6 +164,7 @@ group {
 	       font: "Sans:style=Bold,Edje-Vera-Bold";
 	       size: 12;
 	       min:  1 1;
+               ellipsis: -1;
 	       align: 0.0 1.0;
 	       text_class: "wizard_button";
 	    }
@@ -243,6 +244,7 @@ group {
 	       font: "Sans:style=Bold,Edje-Vera-Bold";
 	       size: 12;
 	       min:  1 1;
+               ellipsis: -1;
 	       align: 1.0 1.0;
 	       text_class: "wizard_button";
 	    }

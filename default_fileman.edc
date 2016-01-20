@@ -1108,6 +1108,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
 	       text_class: "ilist_item";	       
 	    }
@@ -1329,6 +1330,15 @@ group {
             }
          }
       }         
+      part {
+         name: "e.swallow.entry";
+         type: SWALLOW;
+         description {
+            state: "default" 0.0;
+            rel1.to: "e.text.label";
+            rel2.to: "e.text.label";
+         }
+      }
    }
    programs {
       program {
@@ -1848,6 +1858,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
 	       text_class: "ilist_item";	       
 	    }
@@ -2588,6 +2599,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
 	       text_class: "ilist_item";	       
 	    }
@@ -3328,6 +3340,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
 	       text_class: "ilist_item";	       
 	    }
@@ -4329,8 +4342,8 @@ group {
 	       size:     10;
 	       font:     "Edje-Vera";
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.5 1.0;
-	       elipsis:  0.0;
 	       text_class: "fileman_icon";		  
 	    }
 	 }
@@ -4587,6 +4600,7 @@ group {
                font: "Sans:style=Bold,Edje-Vera-Bold";
 	       size: 10;
 	       min:  1 1;
+               ellipsis: -1;
 	       align: 1.0 0.5;
 	       text_class: "fileman_notice";
 	    }
@@ -9773,7 +9787,7 @@ images
    image: "e17_icon_fileman_bdf.png" COMP;
    image: "e17_icon_fileman_css.png" COMP;
    image: "e17_icon_fileman_html.png" COMP;
-   image: "e17_icon_fileman_htm.png" COMP;
+   //image: "e17_icon_fileman_htm.png" COMP;
    image: "e17_icon_fileman_zip.png" COMP;
    image: "e17_icon_fileman_gz.png" COMP;
    image: "e17_icon_fileman_tar.png" COMP;
@@ -9872,7 +9886,7 @@ FILEMAN_MIME("application/x-font-pcf","pcf");
 FILEMAN_MIME("application/x-font-bdf","bdf");
 FILEMAN_MIME("text/css","css");
 FILEMAN_MIME("text/html","html");
-FILEMAN_MIME("text/html","htm");
+//FILEMAN_MIME("text/html","htm");
 FILEMAN_MIME("application/zip","zip");
 FILEMAN_MIME("application/x-gzip","gz");
 FILEMAN_MIME("application/x-bzip-compressed-tar","tar");

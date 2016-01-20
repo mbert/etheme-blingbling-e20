@@ -114,6 +114,7 @@ group {
               text: "32";
               font: "serif";
               min: 1 0;
+              ellipsis: -1;
               align: 0 0.5;
               size: 16;
               fit: 0 1;
@@ -147,6 +148,7 @@ group {
               text: "Mo";
               font: "serif";
               min: 1 0;
+              ellipsis: -1;
               align: 0 0.5;
               size: 16;
               fit: 0 1;

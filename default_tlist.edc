@@ -175,6 +175,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
                text_class: "tlist";	       
 	    }
@@ -203,6 +204,7 @@ group {
 	    text {
 	       style:    "tlist_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }
@@ -648,6 +650,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
                text_class: "tlist";	       
 	    }
@@ -676,6 +679,7 @@ group {
 	    text {
 	       style:    "tlist_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }

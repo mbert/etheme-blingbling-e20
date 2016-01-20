@@ -128,6 +128,7 @@ group {
                font: "Sans:style=Bold,Edje-Vera-Bold";
 	       size:     12;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
                text_class: "dialog_error";	       
 	    }
@@ -152,6 +153,7 @@ group {
 	    text {
 	       style:    "error_style";
 	       min:      1 1;
+               ellipsis: -1;
 	       text:     "An Error<br>Goes Here.";
 	    }
 	 }

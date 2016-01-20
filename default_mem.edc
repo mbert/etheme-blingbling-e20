@@ -542,6 +542,7 @@ part {
 						font: "Sans";
 						size: 8;
 						min: 1 1;
+                                                ellipsis: -1;
 						align: 0 1;
 						text_class: "module_small";
 					}
@@ -588,6 +589,7 @@ part {
 						font: "Sans";
 						size: 8;
 						min: 1 1;
+                                                ellipsis: -1;
 						align: 0 0;
 						text_class: "module_small";
 					}

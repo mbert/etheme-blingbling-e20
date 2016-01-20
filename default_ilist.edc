@@ -181,6 +181,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
 	       text_class: "ilist_item";	       
 	    }
@@ -648,6 +649,7 @@ group {
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
                text_class: "ilist_item";
 	    }
@@ -995,6 +997,7 @@ group {
                font: "Sans:style=Bold,Edje-Vera-Bold";
 	       size:     16;
 	       min:      1 1;
+               ellipsis: -1;
 	       align:    0.0 0.5;
 	       text_class: "ilist_header";
 	    }

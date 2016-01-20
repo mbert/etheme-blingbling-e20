@@ -176,6 +176,7 @@ group {
 	    text {
 	       style:    "dialog_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }

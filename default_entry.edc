@@ -92,6 +92,7 @@ group {
 	       font: "Edje-Vera";
 	       size: 10;
 	       min: 1 1;
+               ellipsis: -1;
 	       align: 0.0 0.0;
                text_class: "entry";
 	    }

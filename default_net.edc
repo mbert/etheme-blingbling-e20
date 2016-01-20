@@ -105,9 +105,9 @@ images
 			    font: "Edje-Vera-Bold";
 			    size: 10;
 			    min: 1 1;
+                            ellipsis: -1;
 			    align: 0.0 0.5;
 			    text_class: "menu_item";
-			    elipsis: 0.0;
 			 }
 		    }
 		  description 
@@ -149,9 +149,9 @@ images
 			    font: "Edje-Vera-Bold";
 			    size: 10;
 			    min: 1 1;
+                            ellipsis: -1;
 			    align: 0.0 0.5;
 			    text_class: "menu_item";
-			    elipsis: 0.0;
 			 }
 		    }
 		  description 
@@ -289,9 +289,9 @@ images
 			    font: "Edje-Vera-Bold";
 			    size: 10;
 			    min: 1 1;
+                            ellipsis: -1;
 			    align: 0.5 0.0;
 			    text_class: "menu_title";
-			    elipsis: 0.0;
 			 }
 		    }
 	       }
@@ -352,9 +352,9 @@ images
 			    font: "Edje-Vera-Bold";
 			    size: 10;
 			    min: 1 1;
+                            ellipsis: -1;
 			    align: 0.0 0.5;
 			    text_class: "module_normal";
-			    elipsis: 0.0;
 			 }
 		    }
 	       }
@@ -389,9 +389,9 @@ images
 			    font: "Edje-Vera-Bold";
 			    size: 10;
 			    min: 1 1;
+                            ellipsis: -1;
 			    align: 0.0 0.5;
 			    text_class: "module_normal";
-			    elipsis: 0.0;
 			 }
 		    }
 	       }

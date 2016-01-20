@@ -30,6 +30,7 @@ group {
 	    text {
 	       style:    "textblock_style";
 	       min:      1 1;
+               ellipsis: -1;
 	    }
 	 }
       }
