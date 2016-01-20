@@ -50,6 +50,7 @@ images {
    image: "e17_fileman_copy.png" COMP;
    image: "e17_fileman_ask.png" COMP;
    image: "e17_fileman_move.png" COMP;
+   image: "1pixel.png" COMP;
 }
 
 group {
@@ -1295,6 +1296,12 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "e17_fileman_copy.png";
+            }
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -1306,6 +1313,9 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
@@ -2045,6 +2055,9 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -2056,6 +2069,9 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
@@ -2786,6 +2802,9 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -2797,6 +2816,9 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
@@ -3527,6 +3549,9 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -3538,6 +3563,9 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
@@ -4000,6 +4028,9 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -4012,6 +4043,9 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
@@ -4365,6 +4399,9 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -4378,6 +4415,9 @@ group {
             rel2 {
                relative: 1.0 1.0;
                offset: -1 -1;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
@@ -7352,6 +7392,9 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -7364,6 +7407,9 @@ group {
             rel2 {
                relative: 1.0 1.0;
                offset: -1 -1;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
@@ -7739,6 +7785,9 @@ group {
          description {
             state:      "default" 0.0;
             color:      0 0 0 0;
+            image {
+               normal:  "1pixel.png";
+            }
          }
          description {
             state:      "visible" 0.0;
@@ -7750,6 +7799,9 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
+            }
+            image {
+               normal:  "1pixel.png";
             }
          }
          description {
