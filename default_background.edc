@@ -1,0 +1,21 @@
+ /* 
+ *wallpaper original realizado por Agust  */
+      images {
+   image: "grill_dark_tiny_pattern.png" COMP;
+}
+group {
+   name: "e/desktop/background";
+   max: 1680 1050;
+   parts {
+      part {
+	 name: "background_image";
+	 description {
+	    state: "default" 0.0;
+	    image {
+	       normal: "grill_dark_tiny_pattern.png";
+	    }
+	 }
+      }
+   }
+
+}   

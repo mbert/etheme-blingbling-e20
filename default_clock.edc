@@ -1,0 +1,384 @@
+   fonts {
+  font: "VeraMono.ttf" "VeraMono";
+}
+
+images {
+  image: "e17_clock_bg.png" COMP;
+  image: "e17_clock_fg.png" COMP;
+  image: "e17_clock_day.png" COMP;
+  image: "e17_clock_weekday.png" COMP;
+  image: "e17_clock_window.png" COMP;
+  image: "e17_clock_second_0.png" COMP; image: "e17_clock_second_1.png" COMP; image: "e17_clock_second_2.png" COMP; image: "e17_clock_second_3.png" COMP; image: "e17_clock_second_4.png" COMP; image: "e17_clock_second_5.png" COMP; image: "e17_clock_second_6.png" COMP; image: "e17_clock_second_7.png" COMP; image: "e17_clock_second_8.png" COMP; image: "e17_clock_second_9.png" COMP; image: "e17_clock_second_10.png" COMP; image: "e17_clock_second_11.png" COMP; image: "e17_clock_second_12.png" COMP; image: "e17_clock_second_13.png" COMP; image: "e17_clock_second_14.png" COMP; image: "e17_clock_second_15.png" COMP; image: "e17_clock_second_16.png" COMP; image: "e17_clock_second_17.png" COMP; image: "e17_clock_second_18.png" COMP; image: "e17_clock_second_19.png" COMP; image: "e17_clock_second_20.png" COMP; image: "e17_clock_second_21.png" COMP; image: "e17_clock_second_22.png" COMP; image: "e17_clock_second_23.png" COMP; image: "e17_clock_second_24.png" COMP; image: "e17_clock_second_25.png" COMP; image: "e17_clock_second_26.png" COMP; image: "e17_clock_second_27.png" COMP; image: "e17_clock_second_28.png" COMP; image: "e17_clock_second_29.png" COMP; image: "e17_clock_second_30.png" COMP; image: "e17_clock_second_31.png" COMP; image: "e17_clock_second_32.png" COMP; image: "e17_clock_second_33.png" COMP; image: "e17_clock_second_34.png" COMP; image: "e17_clock_second_35.png" COMP; image: "e17_clock_second_36.png" COMP; image: "e17_clock_second_37.png" COMP; image: "e17_clock_second_38.png" COMP; image: "e17_clock_second_39.png" COMP; image: "e17_clock_second_40.png" COMP; image: "e17_clock_second_41.png" COMP; image: "e17_clock_second_42.png" COMP; image: "e17_clock_second_43.png" COMP; image: "e17_clock_second_44.png" COMP; image: "e17_clock_second_45.png" COMP; image: "e17_clock_second_46.png" COMP; image: "e17_clock_second_47.png" COMP; image: "e17_clock_second_48.png" COMP; image: "e17_clock_second_49.png" COMP; image: "e17_clock_second_50.png" COMP; image: "e17_clock_second_51.png" COMP; image: "e17_clock_second_52.png" COMP; image: "e17_clock_second_53.png" COMP; image: "e17_clock_second_54.png" COMP; image: "e17_clock_second_55.png" COMP; image: "e17_clock_second_56.png" COMP; image: "e17_clock_second_57.png" COMP; image: "e17_clock_second_58.png" COMP; image: "e17_clock_second_59.png" COMP;
+  image: "e17_clock_second_s_0.png" COMP; image: "e17_clock_second_s_1.png" COMP; image: "e17_clock_second_s_2.png" COMP; image: "e17_clock_second_s_3.png" COMP; image: "e17_clock_second_s_4.png" COMP; image: "e17_clock_second_s_5.png" COMP; image: "e17_clock_second_s_6.png" COMP; image: "e17_clock_second_s_7.png" COMP; image: "e17_clock_second_s_8.png" COMP; image: "e17_clock_second_s_9.png" COMP; image: "e17_clock_second_s_10.png" COMP; image: "e17_clock_second_s_11.png" COMP; image: "e17_clock_second_s_12.png" COMP; image: "e17_clock_second_s_13.png" COMP; image: "e17_clock_second_s_14.png" COMP; image: "e17_clock_second_s_15.png" COMP; image: "e17_clock_second_s_16.png" COMP; image: "e17_clock_second_s_17.png" COMP; image: "e17_clock_second_s_18.png" COMP; image: "e17_clock_second_s_19.png" COMP; image: "e17_clock_second_s_20.png" COMP; image: "e17_clock_second_s_21.png" COMP; image: "e17_clock_second_s_22.png" COMP; image: "e17_clock_second_s_23.png" COMP; image: "e17_clock_second_s_24.png" COMP; image: "e17_clock_second_s_25.png" COMP; image: "e17_clock_second_s_26.png" COMP; image: "e17_clock_second_s_27.png" COMP; image: "e17_clock_second_s_28.png" COMP; image: "e17_clock_second_s_29.png" COMP; image: "e17_clock_second_s_30.png" COMP; image: "e17_clock_second_s_31.png" COMP; image: "e17_clock_second_s_32.png" COMP; image: "e17_clock_second_s_33.png" COMP; image: "e17_clock_second_s_34.png" COMP; image: "e17_clock_second_s_35.png" COMP; image: "e17_clock_second_s_36.png" COMP; image: "e17_clock_second_s_37.png" COMP; image: "e17_clock_second_s_38.png" COMP; image: "e17_clock_second_s_39.png" COMP; image: "e17_clock_second_s_40.png" COMP; image: "e17_clock_second_s_41.png" COMP; image: "e17_clock_second_s_42.png" COMP; image: "e17_clock_second_s_43.png" COMP; image: "e17_clock_second_s_44.png" COMP; image: "e17_clock_second_s_45.png" COMP; image: "e17_clock_second_s_46.png" COMP; image: "e17_clock_second_s_47.png" COMP; image: "e17_clock_second_s_48.png" COMP; image: "e17_clock_second_s_49.png" COMP; image: "e17_clock_second_s_50.png" COMP; image: "e17_clock_second_s_51.png" COMP; image: "e17_clock_second_s_52.png" COMP; image: "e17_clock_second_s_53.png" COMP; image: "e17_clock_second_s_54.png" COMP; image: "e17_clock_second_s_55.png" COMP; image: "e17_clock_second_s_56.png" COMP; image: "e17_clock_second_s_57.png" COMP; image: "e17_clock_second_s_58.png" COMP; image: "e17_clock_second_s_59.png" COMP;
+  image: "e17_clock_hour_0.png" COMP; image: "e17_clock_hour_1.png" COMP; image: "e17_clock_hour_2.png" COMP; image: "e17_clock_hour_3.png" COMP; image: "e17_clock_hour_4.png" COMP; image: "e17_clock_hour_5.png" COMP; image: "e17_clock_hour_6.png" COMP; image: "e17_clock_hour_7.png" COMP; image: "e17_clock_hour_8.png" COMP; image: "e17_clock_hour_9.png" COMP; image: "e17_clock_hour_10.png" COMP; image: "e17_clock_hour_11.png" COMP; image: "e17_clock_hour_12.png" COMP; image: "e17_clock_hour_13.png" COMP; image: "e17_clock_hour_14.png" COMP; image: "e17_clock_hour_15.png" COMP; image: "e17_clock_hour_16.png" COMP; image: "e17_clock_hour_17.png" COMP; image: "e17_clock_hour_18.png" COMP; image: "e17_clock_hour_19.png" COMP; image: "e17_clock_hour_20.png" COMP; image: "e17_clock_hour_21.png" COMP; image: "e17_clock_hour_22.png" COMP; image: "e17_clock_hour_23.png" COMP; image: "e17_clock_hour_24.png" COMP; image: "e17_clock_hour_25.png" COMP; image: "e17_clock_hour_26.png" COMP; image: "e17_clock_hour_27.png" COMP; image: "e17_clock_hour_28.png" COMP; image: "e17_clock_hour_29.png" COMP; image: "e17_clock_hour_30.png" COMP; image: "e17_clock_hour_31.png" COMP; image: "e17_clock_hour_32.png" COMP; image: "e17_clock_hour_33.png" COMP; image: "e17_clock_hour_34.png" COMP; image: "e17_clock_hour_35.png" COMP; image: "e17_clock_hour_36.png" COMP; image: "e17_clock_hour_37.png" COMP; image: "e17_clock_hour_38.png" COMP; image: "e17_clock_hour_39.png" COMP; image: "e17_clock_hour_40.png" COMP; image: "e17_clock_hour_41.png" COMP; image: "e17_clock_hour_42.png" COMP; image: "e17_clock_hour_43.png" COMP; image: "e17_clock_hour_44.png" COMP; image: "e17_clock_hour_45.png" COMP; image: "e17_clock_hour_46.png" COMP; image: "e17_clock_hour_47.png" COMP; image: "e17_clock_hour_48.png" COMP; image: "e17_clock_hour_49.png" COMP; image: "e17_clock_hour_50.png" COMP; image: "e17_clock_hour_51.png" COMP; image: "e17_clock_hour_52.png" COMP; image: "e17_clock_hour_53.png" COMP; image: "e17_clock_hour_54.png" COMP; image: "e17_clock_hour_55.png" COMP; image: "e17_clock_hour_56.png" COMP; image: "e17_clock_hour_57.png" COMP; image: "e17_clock_hour_58.png" COMP; image: "e17_clock_hour_59.png" COMP;
+  image: "e17_clock_minute_0.png" COMP; image: "e17_clock_minute_1.png" COMP; image: "e17_clock_minute_2.png" COMP; image: "e17_clock_minute_3.png" COMP; image: "e17_clock_minute_4.png" COMP; image: "e17_clock_minute_5.png" COMP; image: "e17_clock_minute_6.png" COMP; image: "e17_clock_minute_7.png" COMP; image: "e17_clock_minute_8.png" COMP; image: "e17_clock_minute_9.png" COMP; image: "e17_clock_minute_10.png" COMP; image: "e17_clock_minute_11.png" COMP; image: "e17_clock_minute_12.png" COMP; image: "e17_clock_minute_13.png" COMP; image: "e17_clock_minute_14.png" COMP; image: "e17_clock_minute_15.png" COMP; image: "e17_clock_minute_16.png" COMP; image: "e17_clock_minute_17.png" COMP; image: "e17_clock_minute_18.png" COMP; image: "e17_clock_minute_19.png" COMP; image: "e17_clock_minute_20.png" COMP; image: "e17_clock_minute_21.png" COMP; image: "e17_clock_minute_22.png" COMP; image: "e17_clock_minute_23.png" COMP; image: "e17_clock_minute_24.png" COMP; image: "e17_clock_minute_25.png" COMP; image: "e17_clock_minute_26.png" COMP; image: "e17_clock_minute_27.png" COMP; image: "e17_clock_minute_28.png" COMP; image: "e17_clock_minute_29.png" COMP; image: "e17_clock_minute_30.png" COMP; image: "e17_clock_minute_31.png" COMP; image: "e17_clock_minute_32.png" COMP; image: "e17_clock_minute_33.png" COMP; image: "e17_clock_minute_34.png" COMP; image: "e17_clock_minute_35.png" COMP; image: "e17_clock_minute_36.png" COMP; image: "e17_clock_minute_37.png" COMP; image: "e17_clock_minute_38.png" COMP; image: "e17_clock_minute_39.png" COMP; image: "e17_clock_minute_40.png" COMP; image: "e17_clock_minute_41.png" COMP; image: "e17_clock_minute_42.png" COMP; image: "e17_clock_minute_43.png" COMP; image: "e17_clock_minute_44.png" COMP; image: "e17_clock_minute_45.png" COMP; image: "e17_clock_minute_46.png" COMP; image: "e17_clock_minute_47.png" COMP; image: "e17_clock_minute_48.png" COMP; image: "e17_clock_minute_49.png" COMP; image: "e17_clock_minute_50.png" COMP; image: "e17_clock_minute_51.png" COMP; image: "e17_clock_minute_52.png" COMP; image: "e17_clock_minute_53.png" COMP; image: "e17_clock_minute_54.png" COMP; image: "e17_clock_minute_55.png" COMP; image: "e17_clock_minute_56.png" COMP; image: "e17_clock_minute_57.png" COMP; image: "e17_clock_minute_58.png" COMP; image: "e17_clock_minute_59.png" COMP;
+  image: "e17_clock_minute_s_0.png" COMP; image: "e17_clock_minute_s_1.png" COMP; image: "e17_clock_minute_s_2.png" COMP; image: "e17_clock_minute_s_3.png" COMP; image: "e17_clock_minute_s_4.png" COMP; image: "e17_clock_minute_s_5.png" COMP; image: "e17_clock_minute_s_6.png" COMP; image: "e17_clock_minute_s_7.png" COMP; image: "e17_clock_minute_s_8.png" COMP; image: "e17_clock_minute_s_9.png" COMP; image: "e17_clock_minute_s_10.png" COMP; image: "e17_clock_minute_s_11.png" COMP; image: "e17_clock_minute_s_12.png" COMP; image: "e17_clock_minute_s_13.png" COMP; image: "e17_clock_minute_s_14.png" COMP; image: "e17_clock_minute_s_15.png" COMP; image: "e17_clock_minute_s_16.png" COMP; image: "e17_clock_minute_s_17.png" COMP; image: "e17_clock_minute_s_18.png" COMP; image: "e17_clock_minute_s_19.png" COMP; image: "e17_clock_minute_s_20.png" COMP; image: "e17_clock_minute_s_21.png" COMP; image: "e17_clock_minute_s_22.png" COMP; image: "e17_clock_minute_s_23.png" COMP; image: "e17_clock_minute_s_24.png" COMP; image: "e17_clock_minute_s_25.png" COMP; image: "e17_clock_minute_s_26.png" COMP; image: "e17_clock_minute_s_27.png" COMP; image: "e17_clock_minute_s_28.png" COMP; image: "e17_clock_minute_s_29.png" COMP; image: "e17_clock_minute_s_30.png" COMP; image: "e17_clock_minute_s_31.png" COMP; image: "e17_clock_minute_s_32.png" COMP; image: "e17_clock_minute_s_33.png" COMP; image: "e17_clock_minute_s_34.png" COMP; image: "e17_clock_minute_s_35.png" COMP; image: "e17_clock_minute_s_36.png" COMP; image: "e17_clock_minute_s_37.png" COMP; image: "e17_clock_minute_s_38.png" COMP; image: "e17_clock_minute_s_39.png" COMP; image: "e17_clock_minute_s_40.png" COMP; image: "e17_clock_minute_s_41.png" COMP; image: "e17_clock_minute_s_42.png" COMP; image: "e17_clock_minute_s_43.png" COMP; image: "e17_clock_minute_s_44.png" COMP; image: "e17_clock_minute_s_45.png" COMP; image: "e17_clock_minute_s_46.png" COMP; image: "e17_clock_minute_s_47.png" COMP; image: "e17_clock_minute_s_48.png" COMP; image: "e17_clock_minute_s_49.png" COMP; image: "e17_clock_minute_s_50.png" COMP; image: "e17_clock_minute_s_51.png" COMP; image: "e17_clock_minute_s_52.png" COMP; image: "e17_clock_minute_s_53.png" COMP; image: "e17_clock_minute_s_54.png" COMP; image: "e17_clock_minute_s_55.png" COMP; image: "e17_clock_minute_s_56.png" COMP; image: "e17_clock_minute_s_57.png" COMP; image: "e17_clock_minute_s_58.png" COMP; image: "e17_clock_minute_s_59.png" COMP;
+}
+group {
+  name: "e/modules/clock/main";
+    script {
+        public clock_cb(val) {
+            new buf[11];
+            new year, month, day, yearday, weekday, hour, minute;
+            new Float:second;
+            new v;
+            
+            date(year, month, day, yearday, weekday, hour, minute, second);
+            v = round(second);
+            
+            timer(1.0 - (second - v), "clock_cb", 1);
+
+            buf[0] = 0;
+            snprintf(buf, 10, "%i", v);
+            set_state(PART:"second", buf, 0.0);
+            set_state(PART:"second_s", buf, 0.0);
+
+            buf[0] = 0;
+            snprintf(buf, 10, "%i", minute);
+            set_state(PART:"minutes", buf, 0.0);
+            set_state(PART:"minutes_s", buf, 0.0);
+            
+            v = ((hour % 12) * 5) + ((minute * 5) / 60);
+            buf[0] = 0;
+            snprintf(buf, 10, "%i", v);
+            set_state(PART:"hour", buf, 0.0);
+
+            buf[0] = 0;
+            snprintf(buf, 10, "%i", day);
+            set_state(PART:"day", buf, 0.0);
+
+            buf[0] = 0;
+            snprintf(buf, 10, "%i", weekday + 1);
+            set_state(PART:"weekday", buf, 0.0);
+
+        }
+    }
+    parts {
+/*
+        part {
+          name: "day";
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                image {
+                  normal: "e17_clock_day_0.png";
+                }
+            }
+            description {	state: 0 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_0.png"; } } description {	state: 1 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_1.png"; } } description {	state: 2 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_2.png"; } } description {	state: 3 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_3.png"; } } description {	state: 4 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_4.png"; } } description {	state: 5 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_5.png"; } } description {	state: 6 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_6.png"; } } description {	state: 7 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_7.png"; } } description {	state: 8 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_8.png"; } } description {	state: 9 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_9.png"; } } description {	state: 10 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_10.png"; } } description {	state: 11 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_11.png"; } } description {	state: 12 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_12.png"; } } description {	state: 13 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_13.png"; } } description {	state: 14 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_14.png"; } } description {	state: 15 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_15.png"; } } description {	state: 16 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_16.png"; } } description {	state: 17 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_17.png"; } } description {	state: 18 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_18.png"; } } description {	state: 19 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_19.png"; } } description {	state: 20 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_20.png"; } } description {	state: 21 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_21.png"; } } description {	state: 22 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_22.png"; } } description {	state: 23 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_23.png"; } } description {	state: 24 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_24.png"; } } description {	state: 25 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_25.png"; } } description {	state: 26 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_26.png"; } } description {	state: 27 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_27.png"; } } description {	state: 28 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_28.png"; } } description {	state: 29 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_29.png"; } } description {	state: 30 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_30.png"; } } description {	state: 31 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_day_31.png"; } }
+        }
+        part {
+          name: "weekday";
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                image {
+                  normal: "e17_clock_weekday_0.png";
+                }
+            }
+            description {	state: 0 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_weekday_0.png"; } }
+ description {	state: 1 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_weekday_1.png"; } }
+ description {	state: 2 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_weekday_2.png"; } }
+ description {	state: 3 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_weekday_3.png"; } }
+ description {	state: 4 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_weekday_4.png"; } }
+ description {	state: 5 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_weekday_5.png"; } }
+ description {	state: 6 0.0;aspect: 1.0 1.0;aspect_preference: BOTH; image { normal: "e17_clock_weekday_6.png"; } }
+
+        }
+*/
+        
+        part {
+          name: "bg";
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                image {
+                  normal: "e17_clock_bg.png";
+                }
+            }
+        }
+
+        part {
+          name: "day";
+          type: TEXT;
+          effect: NONE;
+
+          description {
+            color:  0 0 0 255;
+            align: 0 0;
+
+            state: "default" 0.0;
+            text {
+              text: "32";
+              font: "serif";
+              min: 1 0;
+              align: 0 0.5;
+              size: 16;
+              fit: 0 1;
+            }
+             rel1 {
+               to: "window";
+               relative: 0.6 0;
+               offset: 0 1;
+             }
+             rel2 {
+               to: "window";
+               relative: 1 1;
+               offset: 0 0;
+             }
+          }
+          
+          description { state: "0" 0.0; inherit: "default" 0.0; text { text: "0"; } } description { state: "1" 0.0; inherit: "default" 0.0; text { text: "1"; } } description { state: "2" 0.0; inherit: "default" 0.0; text { text: "2"; } } description { state: "3" 0.0; inherit: "default" 0.0; text { text: "3"; } } description { state: "4" 0.0; inherit: "default" 0.0; text { text: "4"; } } description { state: "5" 0.0; inherit: "default" 0.0; text { text: "5"; } } description { state: "6" 0.0; inherit: "default" 0.0; text { text: "6"; } } description { state: "7" 0.0; inherit: "default" 0.0; text { text: "7"; } } description { state: "8" 0.0; inherit: "default" 0.0; text { text: "8"; } } description { state: "9" 0.0; inherit: "default" 0.0; text { text: "9"; } } description { state: "10" 0.0; inherit: "default" 0.0; text { text: "10"; } } description { state: "11" 0.0; inherit: "default" 0.0; text { text: "11"; } } description { state: "12" 0.0; inherit: "default" 0.0; text { text: "12"; } } description { state: "13" 0.0; inherit: "default" 0.0; text { text: "13"; } } description { state: "14" 0.0; inherit: "default" 0.0; text { text: "14"; } } description { state: "15" 0.0; inherit: "default" 0.0; text { text: "15"; } } description { state: "16" 0.0; inherit: "default" 0.0; text { text: "16"; } } description { state: "17" 0.0; inherit: "default" 0.0; text { text: "17"; } } description { state: "18" 0.0; inherit: "default" 0.0; text { text: "18"; } } description { state: "19" 0.0; inherit: "default" 0.0; text { text: "19"; } } description { state: "20" 0.0; inherit: "default" 0.0; text { text: "20"; } } description { state: "21" 0.0; inherit: "default" 0.0; text { text: "21"; } } description { state: "22" 0.0; inherit: "default" 0.0; text { text: "22"; } } description { state: "23" 0.0; inherit: "default" 0.0; text { text: "23"; } } description { state: "24" 0.0; inherit: "default" 0.0; text { text: "24"; } } description { state: "25" 0.0; inherit: "default" 0.0; text { text: "25"; } } description { state: "26" 0.0; inherit: "default" 0.0; text { text: "26"; } } description { state: "27" 0.0; inherit: "default" 0.0; text { text: "27"; } } description { state: "28" 0.0; inherit: "default" 0.0; text { text: "28"; } } description { state: "29" 0.0; inherit: "default" 0.0; text { text: "29"; } } description { state: "30" 0.0; inherit: "default" 0.0; text { text: "30"; } } description { state: "31" 0.0; inherit: "default" 0.0; text { text: "31"; } } description { state: "32" 0.0; inherit: "default" 0.0; text { text: "32"; } }
+        }
+
+        part {
+          name: "weekday";
+          type: TEXT;
+          effect: NONE;
+
+          description {
+            color:  0 0 0 255;
+            align: 0 0;
+
+            state: "default" 0.0;
+            text {
+              text: "Mo";
+              font: "serif";
+              min: 1 0;
+              align: 0 0.5;
+              size: 16;
+              fit: 0 1;
+            }
+             rel1 {
+               to: "window";
+               relative: 0 0;
+               offset: 4 1;
+             }
+             rel2 {
+               to: "window";
+               relative: 1 1;
+               offset: 0 0;
+             }
+          }
+          
+          description { state: "1" 0.0; inherit: "default" 0.0; text { text: "Mo"; } } description { state: "2" 0.0; inherit: "default" 0.0; text { text: "Tu"; } } description { state: "3" 0.0; inherit: "default" 0.0; text { text: "We"; } } description { state: "4" 0.0; inherit: "default" 0.0; text { text: "Th"; } } description { state: "5" 0.0; inherit: "default" 0.0; text { text: "Fr"; } } description { state: "6" 0.0; inherit: "default" 0.0; text { text: "Sa"; } }
+
+            description { 
+              state: "7" 0.0;
+              inherit: "default" 0.0; 
+              color: 200 0 0 255;
+              text { text: "Su"; } }
+        }
+
+        part {
+          name: "window";
+          description {
+            state: "default" 0.0;
+            aspect: 0.0 0.0;
+            aspect_preference: NONE;
+            rel1 {
+              to: "bg";
+              relative: 0.6 0.45;
+              offset: 1 1;
+            }
+            rel2 {
+              to: "bg";
+              relative: 0.85 0.56;
+              offset: -1 -1;
+            }
+            image {
+              normal: "e17_clock_window.png";
+            }
+          }
+        }
+        
+        part {
+          name: hour;
+          mouse_events: 0;
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                rel1 {
+                  relative: 0.1 0.1;
+                }
+                rel2 {
+                  relative: 0.9 0.9;
+                }
+                image {
+                  normal: "e17_clock_hour_0.png";
+                }
+            }
+            description { state: 0 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_0.png"; } }
+ description { state: 1 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_1.png"; } }
+ description { state: 2 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_2.png"; } }
+ description { state: 3 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_3.png"; } }
+ description { state: 4 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_4.png"; } }
+ description { state: 5 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_5.png"; } }
+ description { state: 6 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_6.png"; } }
+ description { state: 7 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_7.png"; } }
+ description { state: 8 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_8.png"; } }
+ description { state: 9 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_9.png"; } }
+ description { state: 10 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_10.png"; } }
+ description { state: 11 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_11.png"; } }
+ description { state: 12 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_12.png"; } }
+ description { state: 13 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_13.png"; } }
+ description { state: 14 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_14.png"; } }
+ description { state: 15 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_15.png"; } }
+ description { state: 16 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_16.png"; } }
+ description { state: 17 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_17.png"; } }
+ description { state: 18 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_18.png"; } }
+ description { state: 19 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_19.png"; } }
+ description { state: 20 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_20.png"; } }
+ description { state: 21 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_21.png"; } }
+ description { state: 22 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_22.png"; } }
+ description { state: 23 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_23.png"; } }
+ description { state: 24 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_24.png"; } }
+ description { state: 25 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_25.png"; } }
+ description { state: 26 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_26.png"; } }
+ description { state: 27 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_27.png"; } }
+ description { state: 28 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_28.png"; } }
+ description { state: 29 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_29.png"; } }
+ description { state: 30 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_30.png"; } }
+ description { state: 31 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_31.png"; } }
+ description { state: 32 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_32.png"; } }
+ description { state: 33 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_33.png"; } }
+ description { state: 34 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_34.png"; } }
+ description { state: 35 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_35.png"; } }
+ description { state: 36 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_36.png"; } }
+ description { state: 37 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_37.png"; } }
+ description { state: 38 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_38.png"; } }
+ description { state: 39 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_39.png"; } }
+ description { state: 40 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_40.png"; } }
+ description { state: 41 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_41.png"; } }
+ description { state: 42 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_42.png"; } }
+ description { state: 43 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_43.png"; } }
+ description { state: 44 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_44.png"; } }
+ description { state: 45 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_45.png"; } }
+ description { state: 46 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_46.png"; } }
+ description { state: 47 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_47.png"; } }
+ description { state: 48 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_48.png"; } }
+ description { state: 49 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_49.png"; } }
+ description { state: 50 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_50.png"; } }
+ description { state: 51 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_51.png"; } }
+ description { state: 52 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_52.png"; } }
+ description { state: 53 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_53.png"; } }
+ description { state: 54 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_54.png"; } }
+ description { state: 55 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_55.png"; } }
+ description { state: 56 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_56.png"; } }
+ description { state: 57 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_57.png"; } }
+ description { state: 58 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_58.png"; } }
+ description { state: 59 0.0; inherit: "default" 0.0; image { normal: "e17_clock_hour_59.png"; } }
+
+        }
+
+        part {
+          name: minutes_s;
+          mouse_events: 0;
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                rel1 {
+                  relative: 0.065 0.065;
+                }
+                rel2 {
+                  relative: 0.965 0.965;
+                }
+                image {
+                  normal: "e17_clock_minute_s_0.png";
+                }
+            }
+            description { state: 0 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_0.png"; } } description { state: 1 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_1.png"; } } description { state: 2 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_2.png"; } } description { state: 3 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_3.png"; } } description { state: 4 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_4.png"; } } description { state: 5 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_5.png"; } } description { state: 6 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_6.png"; } } description { state: 7 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_7.png"; } } description { state: 8 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_8.png"; } } description { state: 9 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_9.png"; } } description { state: 10 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_10.png"; } } description { state: 11 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_11.png"; } } description { state: 12 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_12.png"; } } description { state: 13 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_13.png"; } } description { state: 14 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_14.png"; } } description { state: 15 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_15.png"; } } description { state: 16 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_16.png"; } } description { state: 17 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_17.png"; } } description { state: 18 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_18.png"; } } description { state: 19 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_19.png"; } } description { state: 20 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_20.png"; } } description { state: 21 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_21.png"; } } description { state: 22 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_22.png"; } } description { state: 23 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_23.png"; } } description { state: 24 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_24.png"; } } description { state: 25 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_25.png"; } } description { state: 26 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_26.png"; } } description { state: 27 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_27.png"; } } description { state: 28 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_28.png"; } } description { state: 29 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_29.png"; } } description { state: 30 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_30.png"; } } description { state: 31 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_31.png"; } } description { state: 32 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_32.png"; } } description { state: 33 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_33.png"; } } description { state: 34 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_34.png"; } } description { state: 35 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_35.png"; } } description { state: 36 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_36.png"; } } description { state: 37 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_37.png"; } } description { state: 38 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_38.png"; } } description { state: 39 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_39.png"; } } description { state: 40 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_40.png"; } } description { state: 41 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_41.png"; } } description { state: 42 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_42.png"; } } description { state: 43 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_43.png"; } } description { state: 44 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_44.png"; } } description { state: 45 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_45.png"; } } description { state: 46 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_46.png"; } } description { state: 47 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_47.png"; } } description { state: 48 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_48.png"; } } description { state: 49 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_49.png"; } } description { state: 50 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_50.png"; } } description { state: 51 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_51.png"; } } description { state: 52 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_52.png"; } } description { state: 53 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_53.png"; } } description { state: 54 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_54.png"; } } description { state: 55 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_55.png"; } } description { state: 56 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_56.png"; } } description { state: 57 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_57.png"; } } description { state: 58 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_58.png"; } } description { state: 59 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_s_59.png"; } }
+        }
+        
+        part {
+          name: minutes;
+          mouse_events: 0;
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                rel1 {
+                  relative: 0.05 0.05;
+                }
+                rel2 {
+                  relative: 0.95 0.95;
+                }
+                image {
+                  normal: "e17_clock_minute_0.png";
+                }
+            }
+            description { state: 0 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_0.png"; } } description { state: 1 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_1.png"; } } description { state: 2 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_2.png"; } } description { state: 3 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_3.png"; } } description { state: 4 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_4.png"; } } description { state: 5 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_5.png"; } } description { state: 6 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_6.png"; } } description { state: 7 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_7.png"; } } description { state: 8 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_8.png"; } } description { state: 9 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_9.png"; } } description { state: 10 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_10.png"; } } description { state: 11 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_11.png"; } } description { state: 12 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_12.png"; } } description { state: 13 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_13.png"; } } description { state: 14 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_14.png"; } } description { state: 15 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_15.png"; } } description { state: 16 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_16.png"; } } description { state: 17 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_17.png"; } } description { state: 18 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_18.png"; } } description { state: 19 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_19.png"; } } description { state: 20 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_20.png"; } } description { state: 21 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_21.png"; } } description { state: 22 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_22.png"; } } description { state: 23 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_23.png"; } } description { state: 24 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_24.png"; } } description { state: 25 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_25.png"; } } description { state: 26 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_26.png"; } } description { state: 27 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_27.png"; } } description { state: 28 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_28.png"; } } description { state: 29 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_29.png"; } } description { state: 30 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_30.png"; } } description { state: 31 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_31.png"; } } description { state: 32 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_32.png"; } } description { state: 33 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_33.png"; } } description { state: 34 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_34.png"; } } description { state: 35 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_35.png"; } } description { state: 36 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_36.png"; } } description { state: 37 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_37.png"; } } description { state: 38 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_38.png"; } } description { state: 39 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_39.png"; } } description { state: 40 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_40.png"; } } description { state: 41 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_41.png"; } } description { state: 42 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_42.png"; } } description { state: 43 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_43.png"; } } description { state: 44 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_44.png"; } } description { state: 45 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_45.png"; } } description { state: 46 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_46.png"; } } description { state: 47 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_47.png"; } } description { state: 48 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_48.png"; } } description { state: 49 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_49.png"; } } description { state: 50 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_50.png"; } } description { state: 51 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_51.png"; } } description { state: 52 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_52.png"; } } description { state: 53 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_53.png"; } } description { state: 54 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_54.png"; } } description { state: 55 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_55.png"; } } description { state: 56 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_56.png"; } } description { state: 57 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_57.png"; } } description { state: 58 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_58.png"; } } description { state: 59 0.0; inherit: "default" 0.0; image { normal: "e17_clock_minute_59.png"; } }
+        }
+
+        part {
+          name: second_s;
+          mouse_events: 0;
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                rel1 {
+                  relative: 0.07 0.07;
+                }
+                rel2 {
+                  relative: 0.97 0.97;
+                }
+                image {
+                  normal: "e17_clock_second_s_0.png";
+                }
+            }
+            description { state: 0 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_0.png"; } } description { state: 1 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_1.png"; } } description { state: 2 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_2.png"; } } description { state: 3 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_3.png"; } } description { state: 4 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_4.png"; } } description { state: 5 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_5.png"; } } description { state: 6 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_6.png"; } } description { state: 7 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_7.png"; } } description { state: 8 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_8.png"; } } description { state: 9 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_9.png"; } } description { state: 10 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_10.png"; } } description { state: 11 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_11.png"; } } description { state: 12 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_12.png"; } } description { state: 13 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_13.png"; } } description { state: 14 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_14.png"; } } description { state: 15 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_15.png"; } } description { state: 16 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_16.png"; } } description { state: 17 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_17.png"; } } description { state: 18 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_18.png"; } } description { state: 19 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_19.png"; } } description { state: 20 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_20.png"; } } description { state: 21 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_21.png"; } } description { state: 22 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_22.png"; } } description { state: 23 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_23.png"; } } description { state: 24 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_24.png"; } } description { state: 25 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_25.png"; } } description { state: 26 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_26.png"; } } description { state: 27 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_27.png"; } } description { state: 28 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_28.png"; } } description { state: 29 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_29.png"; } } description { state: 30 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_30.png"; } } description { state: 31 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_31.png"; } } description { state: 32 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_32.png"; } } description { state: 33 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_33.png"; } } description { state: 34 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_34.png"; } } description { state: 35 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_35.png"; } } description { state: 36 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_36.png"; } } description { state: 37 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_37.png"; } } description { state: 38 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_38.png"; } } description { state: 39 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_39.png"; } } description { state: 40 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_40.png"; } } description { state: 41 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_41.png"; } } description { state: 42 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_42.png"; } } description { state: 43 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_43.png"; } } description { state: 44 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_44.png"; } } description { state: 45 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_45.png"; } } description { state: 46 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_46.png"; } } description { state: 47 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_47.png"; } } description { state: 48 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_48.png"; } } description { state: 49 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_49.png"; } } description { state: 50 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_50.png"; } } description { state: 51 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_51.png"; } } description { state: 52 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_52.png"; } } description { state: 53 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_53.png"; } } description { state: 54 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_54.png"; } } description { state: 55 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_55.png"; } } description { state: 56 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_56.png"; } } description { state: 57 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_57.png"; } } description { state: 58 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_58.png"; } } description { state: 59 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_s_59.png"; } }
+        }
+
+        part {
+          name: second;
+          mouse_events: 0;
+            description {
+              state: "default" 0.0;
+              aspect: 1.0 1.0;
+              aspect_preference: BOTH;
+                rel1 {
+                  relative: 0.05 0.05;
+                }
+                rel2 {
+                  relative: 0.95 0.95;
+                }
+                image {
+                  normal: "e17_clock_second_0.png";
+                }
+            }
+            description { state: 0 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_0.png"; } } description { state: 1 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_1.png"; } } description { state: 2 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_2.png"; } } description { state: 3 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_3.png"; } } description { state: 4 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_4.png"; } } description { state: 5 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_5.png"; } } description { state: 6 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_6.png"; } } description { state: 7 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_7.png"; } } description { state: 8 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_8.png"; } } description { state: 9 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_9.png"; } } description { state: 10 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_10.png"; } } description { state: 11 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_11.png"; } } description { state: 12 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_12.png"; } } description { state: 13 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_13.png"; } } description { state: 14 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_14.png"; } } description { state: 15 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_15.png"; } } description { state: 16 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_16.png"; } } description { state: 17 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_17.png"; } } description { state: 18 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_18.png"; } } description { state: 19 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_19.png"; } } description { state: 20 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_20.png"; } } description { state: 21 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_21.png"; } } description { state: 22 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_22.png"; } } description { state: 23 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_23.png"; } } description { state: 24 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_24.png"; } } description { state: 25 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_25.png"; } } description { state: 26 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_26.png"; } } description { state: 27 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_27.png"; } } description { state: 28 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_28.png"; } } description { state: 29 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_29.png"; } } description { state: 30 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_30.png"; } } description { state: 31 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_31.png"; } } description { state: 32 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_32.png"; } } description { state: 33 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_33.png"; } } description { state: 34 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_34.png"; } } description { state: 35 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_35.png"; } } description { state: 36 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_36.png"; } } description { state: 37 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_37.png"; } } description { state: 38 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_38.png"; } } description { state: 39 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_39.png"; } } description { state: 40 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_40.png"; } } description { state: 41 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_41.png"; } } description { state: 42 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_42.png"; } } description { state: 43 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_43.png"; } } description { state: 44 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_44.png"; } } description { state: 45 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_45.png"; } } description { state: 46 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_46.png"; } } description { state: 47 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_47.png"; } } description { state: 48 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_48.png"; } } description { state: 49 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_49.png"; } } description { state: 50 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_50.png"; } } description { state: 51 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_51.png"; } } description { state: 52 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_52.png"; } } description { state: 53 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_53.png"; } } description { state: 54 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_54.png"; } } description { state: 55 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_55.png"; } } description { state: 56 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_56.png"; } } description { state: 57 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_57.png"; } } description { state: 58 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_58.png"; } } description { state: 59 0.0; inherit: "default" 0.0; image { normal: "e17_clock_second_59.png"; } }
+        }
+
+        part {
+          name: "main";
+          mouse_events: 0;
+            description {
+              state: "default" 0.0;
+                rel1 {
+                  to: "bg";
+                }
+                rel2 {
+                  to: "bg";
+                }
+                image {
+                  normal: "e17_clock_fg.png";
+                }
+            }
+        }
+    }
+    programs {
+        program {
+          name: "init";
+          signal: "load";
+          source: "";
+            script {
+                clock_cb(0);
+            }
+        }
+    }
+}
