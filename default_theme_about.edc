@@ -134,8 +134,11 @@ group {
 	       text: 
 "This is the old default theme for Enlightenment, "
 "also known as the <hilight>BLING BLING</hilight> theme. "
+"<br><br>"
 "Modified by Agustin J Verdegal T.<br>"
-"Ported to E19/E20 by <hilight>Martin 'mbert' Dietze</hilight>";
+"Ported to E19/E20 by<br/><hilight>Martin 'mbert' Dietze</hilight><br/>"
+"using the Elementary code and BG<br/>image from <hilight>'rpil'</hilight><br>"
+"with help from<br/><hilight>Alberto 'Duma' Verdoja</hilight><br>";
 
 	    }
 	 }
