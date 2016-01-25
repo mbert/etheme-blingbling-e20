@@ -132,13 +132,11 @@ group {
 	       style:    "theme_about_style";
 	       min:      0 1;
 	       text: 
-"This is the old default theme for Enlightenment, "
-"also known as the <hilight>BLING BLING</hilight> theme. "
+"This is <hilight>BLING BLING</hilight> for E19/E20."
 "<br><br>"
-"Modified by Agustin J Verdegal T.<br>"
-"Ported to E19/E20 by<br/><hilight>Martin 'mbert' Dietze</hilight><br/>"
-"using the Elementary code and BG<br/>image from <hilight>'rpil'</hilight><br>"
-"with help from<br/><hilight>Alberto 'Duma' Verdoja</hilight><br>";
+"Ported by <hilight>Martin 'mbert' Dietze</hilight> "
+"using code by <hilight>Agustin J Verdegal T.</highlight> and <hilight>'rpil'</hilight>"
+"with help from <hilight>Alberto 'Duma' Verdoja</hilight><br>";
 
 	    }
 	 }
