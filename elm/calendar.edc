@@ -137,7 +137,7 @@
          rel2.to: "cit_"#_pos".rect"; \
          rel2.offset: -1 -1; \
          image { \
-            normal: "elm-ilist_1.png"; \
+            normal: "e17_ilist_bg0.png"; \
             border: 2 2 2 2; \
          } \
          fill.smooth: 0; \
@@ -145,7 +145,7 @@
       description { \
          state: "today" 0.0; \
          inherit: "default" 0.0; \
-         image.normal: "elm-ilist_2.png"; \
+         image.normal: "e17_ilist_bg1.png"; \
          color: 240 240 240 255; \
       } \
    } \
@@ -339,8 +339,8 @@ group { name: "elm/calendar/base/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-check.png" COMP;
    }

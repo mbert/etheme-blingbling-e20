@@ -4,7 +4,7 @@ group { name: "elm/list/item/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -47,7 +47,7 @@ group { name: "elm/list/item/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -252,7 +252,7 @@ group { name: "elm/list/item_odd/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part {
@@ -270,7 +270,7 @@ group { name: "elm/list/item_odd/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -478,7 +478,7 @@ group { name: "elm/list/item_compress/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -520,7 +520,7 @@ group { name: "elm/list/item_compress/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -693,7 +693,7 @@ group { name: "elm/list/item_compress_odd/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part {
@@ -711,7 +711,7 @@ group { name: "elm/list/item_compress_odd/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;

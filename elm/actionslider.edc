@@ -2,7 +2,7 @@ group { name: "elm/actionslider/base/default";
 
    images {
       image: "elm-shelf_inset.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-bt_bases.png" COMP;
       image: "elm-bt_basew.png" COMP;
       image: "elm-bt_hilightw.png" COMP;
@@ -18,7 +18,7 @@ group { name: "elm/actionslider/base/default";
             rel1.offset: 1 1;
             rel2.offset: -2 -2;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -211,7 +211,7 @@ group { name: "elm/actionslider/base/bar";
 
    images {
       image: "elm-shelf_inset.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-bt_bases.png" COMP;
       image: "elm-bt_basew.png" COMP;
       image: "elm-bt_hilightw.png" COMP;
@@ -227,7 +227,7 @@ group { name: "elm/actionslider/base/bar";
             rel1.offset: 1 1;
             rel2.offset: -2 -2;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;

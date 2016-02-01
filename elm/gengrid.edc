@@ -5,7 +5,7 @@ group { name: "elm/gengrid/item/default/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -67,7 +67,7 @@ group { name: "elm/gengrid/item/default/default";
          mouse_events: 0;
          description { state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -319,7 +319,7 @@ group { name: "elm/gengrid/item/default_style/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -357,7 +357,7 @@ group { name: "elm/gengrid/item/default_style/default";
          description { state: "default" 0.0;
             min: 16 28;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;

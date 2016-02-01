@@ -238,7 +238,7 @@ group { name: "elm/index/item/vertical/default";
    data.item: "stacking" "above";
    data.item: "selectraise" "on";
    images {
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -272,7 +272,7 @@ group { name: "elm/index/item/vertical/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -340,7 +340,7 @@ group { name: "elm/index/item/vertical/default";
 group { name: "elm/index/item_odd/vertical/default";
    data.item: "stacking" "below";
    images {
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part {
@@ -349,7 +349,7 @@ group { name: "elm/index/item_odd/vertical/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -650,7 +650,7 @@ group { name: "elm/index/item/horizontal/default";
    data.item: "stacking" "above";
    data.item: "selectraise" "on";
    images {
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -682,7 +682,7 @@ group { name: "elm/index/item/horizontal/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -745,7 +745,7 @@ group { name: "elm/index/item/horizontal/default";
 group { name: "elm/index/item_odd/horizontal/default";
    data.item: "stacking" "below";
    images {
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part {
@@ -754,7 +754,7 @@ group { name: "elm/index/item_odd/horizontal/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;

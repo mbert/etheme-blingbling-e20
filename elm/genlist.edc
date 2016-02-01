@@ -9,8 +9,8 @@ group { name: "elm/genlist/item/default/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -81,7 +81,7 @@ group { name: "elm/genlist/item/default/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -89,7 +89,7 @@ group { name: "elm/genlist/item/default/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -419,8 +419,8 @@ group { name: "elm/genlist/item/full/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -491,7 +491,7 @@ group { name: "elm/genlist/item/full/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -499,7 +499,7 @@ group { name: "elm/genlist/item/full/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -729,8 +729,8 @@ group { name: "elm/genlist/item/one_icon/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -801,7 +801,7 @@ group { name: "elm/genlist/item/one_icon/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -809,7 +809,7 @@ group { name: "elm/genlist/item/one_icon/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -1118,8 +1118,8 @@ group { name: "elm/genlist/item/end_icon/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -1190,7 +1190,7 @@ group { name: "elm/genlist/item/end_icon/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -1198,7 +1198,7 @@ group { name: "elm/genlist/item/end_icon/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -1504,8 +1504,8 @@ group { name: "elm/genlist/item/no_icon/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -1576,7 +1576,7 @@ group { name: "elm/genlist/item/no_icon/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -1584,7 +1584,7 @@ group { name: "elm/genlist/item/no_icon/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -2140,8 +2140,8 @@ group { name: "elm/genlist/item_compress/message/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    styles {
@@ -2202,7 +2202,7 @@ group { name: "elm/genlist/item_compress/message/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -2210,7 +2210,7 @@ group { name: "elm/genlist/item_compress/message/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -2551,8 +2551,8 @@ group { name: "elm/genlist/tree/default/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-icon_arrow_left.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
@@ -2626,7 +2626,7 @@ group { name: "elm/genlist/tree/default/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -2634,7 +2634,7 @@ group { name: "elm/genlist/tree/default/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -2979,7 +2979,7 @@ group { name: "elm/genlist/tree_compress/default/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-icon_arrow_left.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
@@ -3029,7 +3029,7 @@ group { name: "elm/genlist/tree_compress/default/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -3037,7 +3037,7 @@ group { name: "elm/genlist/tree_compress/default/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -3383,7 +3383,7 @@ group { name: "elm/genlist/item/default_style/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -3426,7 +3426,7 @@ group { name: "elm/genlist/item/default_style/default";
             state: "default" 0.0;
             min: 16 28;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -3654,7 +3654,7 @@ group { name: "elm/genlist/item_odd/default_style/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part { name: "event";
@@ -3671,7 +3671,7 @@ group { name: "elm/genlist/item_odd/default_style/default";
             state: "default" 0.0;
             min: 16 28;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -3900,7 +3900,7 @@ group { name: "elm/genlist/tree/default_style/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
@@ -3945,7 +3945,7 @@ group { name: "elm/genlist/tree/default_style/default";
             state: "default" 0.0;
             min: 16 28;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -4218,7 +4218,7 @@ group { name: "elm/genlist/tree_odd/default_style/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
    }
@@ -4238,7 +4238,7 @@ group { name: "elm/genlist/tree_odd/default_style/default";
             state: "default" 0.0;
             min: 16 28;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -4514,7 +4514,7 @@ group { name: "elm/genlist/item/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -4556,7 +4556,7 @@ group { name: "elm/genlist/item/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -4826,7 +4826,7 @@ group { name: "elm/genlist/item_compress/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -4868,7 +4868,7 @@ group { name: "elm/genlist/item_compress/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -5136,7 +5136,7 @@ group { name: "elm/genlist/item_odd/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part { name: "event";
@@ -5152,7 +5152,7 @@ group { name: "elm/genlist/item_odd/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -5422,7 +5422,7 @@ group { name: "elm/genlist/item_compress_odd/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part { name: "event";
@@ -5438,7 +5438,7 @@ group { name: "elm/genlist/item_compress_odd/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -5707,7 +5707,7 @@ group { name: "elm/genlist/tree/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
@@ -5751,7 +5751,7 @@ group { name: "elm/genlist/tree/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -6065,7 +6065,7 @@ group { name: "elm/genlist/tree_compress/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
@@ -6109,7 +6109,7 @@ group { name: "elm/genlist/tree_compress/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -6421,7 +6421,7 @@ group { name: "elm/genlist/tree_odd/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
    }
@@ -6440,7 +6440,7 @@ group { name: "elm/genlist/tree_odd/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -6755,7 +6755,7 @@ group { name: "elm/genlist/item/icon_top_text_bottom/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -6797,7 +6797,7 @@ group { name: "elm/genlist/item/icon_top_text_bottom/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -7011,7 +7011,7 @@ group { name: "elm/genlist/item_odd/icon_top_text_bottom/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part { name: "event";
@@ -7027,7 +7027,7 @@ group { name: "elm/genlist/item_odd/icon_top_text_bottom/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -7242,7 +7242,7 @@ group { name: "elm/genlist/tree/icon_top_text_bottom/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
@@ -7286,7 +7286,7 @@ group { name: "elm/genlist/tree/icon_top_text_bottom/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -7543,7 +7543,7 @@ group { name: "elm/genlist/tree_odd/icon_top_text_bottom/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
    }
@@ -7562,7 +7562,7 @@ group { name: "elm/genlist/tree_odd/icon_top_text_bottom/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -7822,7 +7822,7 @@ group { name: "elm/genlist/tree_compress_odd/double_label/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
       image: "elm-icon_arrow_down.png" COMP;
    }
@@ -7841,7 +7841,7 @@ group { name: "elm/genlist/tree_compress_odd/double_label/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -8152,7 +8152,7 @@ group { name: "elm/genlist/item_compress/media/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -8194,7 +8194,7 @@ group { name: "elm/genlist/item_compress/media/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -8415,7 +8415,7 @@ group { name: "elm/genlist/item_compress_odd/media/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part { name: "event";
@@ -8431,7 +8431,7 @@ group { name: "elm/genlist/item_compress_odd/media/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -8654,7 +8654,7 @@ group { name: "elm/genlist/item_compress/media-album/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    script {
@@ -8699,7 +8699,7 @@ group { name: "elm/genlist/item_compress/media-album/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -9033,7 +9033,7 @@ group { name: "elm/genlist/item_compress_odd/media-album/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    script {
       public dot_visible;
@@ -9052,7 +9052,7 @@ group { name: "elm/genlist/item_compress_odd/media-album/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -9387,7 +9387,7 @@ group { name: "elm/genlist/item_compress/media-preview/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -9429,7 +9429,7 @@ group { name: "elm/genlist/item_compress/media-preview/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -9673,7 +9673,7 @@ group { name: "elm/genlist/item_compress_odd/media-preview/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
    parts {
       part { name: "event";
@@ -9689,7 +9689,7 @@ group { name: "elm/genlist/item_compress_odd/media-preview/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -9934,8 +9934,8 @@ group { name: "elm/genlist/item/mode/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
 
@@ -9983,7 +9983,7 @@ group { name: "elm/genlist/item/mode/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -9991,7 +9991,7 @@ group { name: "elm/genlist/item/mode/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -10333,7 +10333,7 @@ group { name: "elm/genlist/item_odd/mode/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
    }
 
    parts {
@@ -10351,7 +10351,7 @@ group { name: "elm/genlist/item_odd/mode/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_2.png";
+               normal: "e17_ilist_bg1.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -10652,8 +10652,8 @@ group { name: "elm/genlist/item/edit/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -10706,7 +10706,7 @@ group { name: "elm/genlist/item/edit/default";
                relative: 1.0  1.0;
             }
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -10714,7 +10714,7 @@ group { name: "elm/genlist/item/edit/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -11194,8 +11194,8 @@ group { name: "elm/genlist/tree/effect_parts/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
       image: "elm-icon_arrow_left.png" COMP;
       image: "elm-icon_arrow_right.png" COMP;
@@ -11261,7 +11261,7 @@ group { name: "elm/genlist/tree/effect_parts/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -11269,7 +11269,7 @@ group { name: "elm/genlist/tree/effect_parts/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
@@ -11696,8 +11696,8 @@ group { name: "elm/genlist/item/effect_parts/default";
       image: "elm-bt_sm_base1.png" COMP;
       image: "elm-bt_sm_shine.png" COMP;
       image: "elm-bt_sm_hilight.png" COMP;
-      image: "elm-ilist_1.png" COMP;
-      image: "elm-ilist_2.png" COMP;
+      image: "e17_ilist_bg0.png" COMP;
+      image: "e17_ilist_bg1.png" COMP;
       image: "elm-ilist_item_shadow.png" COMP;
    }
    parts {
@@ -11768,7 +11768,7 @@ group { name: "elm/genlist/item/effect_parts/default";
          description {
             state: "default" 0.0;
             image {
-               normal: "elm-ilist_1.png";
+               normal: "e17_ilist_bg0.png";
                border: 2 2 2 2;
             }
             fill.smooth: 0;
@@ -11776,7 +11776,7 @@ group { name: "elm/genlist/item/effect_parts/default";
          description {
             state: "default" 1.0;
             inherit: "default" 0.0;
-            image.normal: "elm-ilist_2.png";
+            image.normal: "e17_ilist_bg1.png";
          }
       }
       part { name: "bg";
