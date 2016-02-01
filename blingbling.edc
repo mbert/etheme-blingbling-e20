@@ -1,6 +1,6 @@
 data {
    item: "theme/name"     "BlingBling";
-   item: "theme/version"  "0.7";
+   item: "theme/version"  "0.8";
    item: "theme/author"   "Raster & E17 Developers, E20 port by mbert with help from Duma, Elementary code by 'rpil'.";
    item: "theme/license"  "GPL";
    item: "version"        "110"; // theme api version. from 1.10 on we will check version to avoid compat issues
