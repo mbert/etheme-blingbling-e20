@@ -5,7 +5,6 @@
 }
 group {
    name: "e/desktop/background";
-   max: 1920 1080;
    parts {
       part {
 	 name: "background_image";
