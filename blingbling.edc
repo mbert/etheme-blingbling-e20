@@ -28,6 +28,7 @@ spectra {
 #endif
 
 collections {
+#include "fonts.edc"
 
 #include "elm/macros.edc"
 #include "elm/button.edc"
