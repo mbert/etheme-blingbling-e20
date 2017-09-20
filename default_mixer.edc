@@ -1,9 +1,6 @@
 images {
    image: "e17_mixer_base.png" COMP;
    image: "e17_mixer_mute.png" COMP;
-   image: "e17_mixer_left_low.png" COMP;
-   image: "e17_mixer_left_medium.png" COMP;
-   image: "e17_mixer_left_high.png" COMP;
    image: "e17_mixer_right_low.png" COMP;
    image: "e17_mixer_right_medium.png" COMP;
    image: "e17_mixer_right_high.png" COMP;
@@ -17,25 +14,15 @@ group {
    script {
       public message(Msg_Type:type, id, ...) {
          if ((type == MSG_INT_SET) && (id == 0)) {
-            new mute, left, right;
+            new mute, right;
 
             mute = getarg(2);
-            left = getarg(3);
             right = getarg(4);
 
             if (mute)
                run_program(PROGRAM:"mute");
             else
                run_program(PROGRAM:"unmute");
-
-            if (left <= 0)
-               run_program(PROGRAM:"left_none");
-            else if (left < 33)
-               run_program(PROGRAM:"left_low");
-            else if (left < 66)
-               run_program(PROGRAM:"left_medium");
-            else if (left >= 66)
-               run_program(PROGRAM:"left_high");
 
             if (right <= 0)
                run_program(PROGRAM:"right_none");
@@ -73,38 +60,6 @@ group {
             rel1.to: "base";
             rel2.to: "base";
             image.normal: "e17_mixer_base.png";
-         }
-      }
-
-      part {
-         name: "left";
-         mouse_events: 0;
-         type: IMAGE;
-         description {
-            state: "default" 0.0;
-            visible: 0;
-            aspect: 1 1;
-            aspect_preference: BOTH;
-            rel1.to: "base";
-            rel2.to: "base";
-            image.normal: "e17_mixer_left_low.png";
-         }
-         description {
-            state: "low" 0.0;
-            inherit: "default" 0.0;
-            visible: 1;
-         }
-         description {
-            state: "medium" 0.0;
-            inherit: "default" 0.0;
-            visible: 1;
-            image.normal: "e17_mixer_left_medium.png";
-         }
-         description {
-            state: "high" 0.0;
-            inherit: "default" 0.0;
-            visible: 1;
-            image.normal: "e17_mixer_left_high.png";
          }
       }
 
@@ -187,35 +142,7 @@ group {
          target: "mute";
       }
 
-      program {
-         name: "left_none";
-         action: STATE_SET "default" 0.0;
-         transition: LINEAR 0.1;
-         target: "left";
-      }
-
-      program {
-         name: "left_low";
-         action: STATE_SET "low" 0.0;
-         transition: LINEAR 0.1;
-         target: "left";
-      }
-
-      program {
-         name: "left_medium";
-         action: STATE_SET "medium" 0.0;
-         transition: LINEAR 0.1;
-         target: "left";
-      }
-
-      program {
-         name: "left_high";
-         action: STATE_SET "high" 0.0;
-         transition: LINEAR 0.1;
-         target: "left";
-      }
-
-      program {
+     program {
          name: "right_none";
          action: STATE_SET "default" 0.0;
          transition: LINEAR 0.1;
