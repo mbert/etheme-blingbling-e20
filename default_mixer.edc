@@ -59,6 +59,7 @@ group {
             aspect_preference: BOTH;
             rel1.to: "base";
             rel2.to: "base";
+            rel1.offset: -7 0;
             image.normal: "e17_mixer_base.png";
          }
       }
@@ -73,6 +74,7 @@ group {
             aspect: 1 1;
             aspect_preference: BOTH;
             rel1.to: "base";
+            rel1.offset: -3 0;
             rel2.to: "base";
             image.normal: "e17_mixer_right_low.png";
          }
