@@ -146,7 +146,8 @@ group {
 	 name:           "e.text.reading";
 	 type:           TEXT;
 	 effect:         OUTLINE_SOFT_SHADOW;
-	 clip_to: "fade_clip";
+	 clip_to: "info_clip";
+	 mouse_events: 0;
 	 description {
 	    state: "default" 0.0;
 	    align: 1.0 0.0;
@@ -163,20 +164,22 @@ group {
 	    color_class: "module_label";
 	    text {
 	       text:     "100%";
-               font: "Sans:style=Bold,Edje-Vera-Bold";
+           font: "Sans:style=Bold,Edje-Vera-Bold";
 	       size:     8;
 	       min:      1 1;
-               ellipsis: -1;
+           ellipsis: -1;
 	       align:    1.0 0.0;
 	       text_class: "module_small";
 	    }
-	 }
+	   }
       }
+      
       part {
 	 name:           "e.text.time";
 	 type:           TEXT;
 	 effect:         OUTLINE_SOFT_SHADOW;
-	 clip_to: "fade_clip";
+	 clip_to: "info_clip";
+	 mouse_events: 0;
 	 description {
 	    state: "default" 0.0;
 	    align: 1.0 0.0;
@@ -198,16 +201,16 @@ group {
 	       font:     "Edje-Vera-Bold";
 	       size:     8;
 	       min:      1 1;
-               ellipsis: -1;
+           ellipsis: -1;
 	       align:    1.0 0.0;
-               text_class: "module_small";
+           text_class: "module_small";
 	    }
 	 }
       }
       part {
 	 name:           "fade_clip";
 	 type:           RECT;
-	 mouse_events:   0;
+	 mouse_events: 0;
 	 description {
 	    state: "default" 0.0;
 	    color: 255 255 255 255;
@@ -217,6 +220,17 @@ group {
 	    color: 255 255 255 128;
 	 }
       }
+      
+      part { name: "info_clip"; type: RECT;
+         clip_to: "fade_clip";
+         description { state: "default" 0.0;
+            color: 255 255 255 0;
+         }
+         description { state: "visible" 0.0;
+            color: 255 255 255 255;
+         }
+      }
+      
       part {
 	 name:           "pulse_clip";
 	 type:           RECT;
@@ -235,66 +249,85 @@ group {
 	    color: 255 255 255 0;
 	 }
       }
+   
+   
+   part { name: "over"; type: RECT;
+         description { state: "default" 0.0;
+            color: 0 0 0 0;
+         }
+      }
    }
    programs {
-      program {
-	 name: "charge";
-	 signal: "e,state,charging";
-	 source: "e";
-	 action: STATE_SET "default" 0.0;
-	 target: "fade_clip";
+	   program {
+         signal: "mouse,in"; source: "over";
+         action: STATE_SET "visible" 0.0;
+         transition: LINEAR 0.3;
+         target: "info_clip";
       }
       program {
-	 name: "charge2";
-	 signal: "e,state,charging";
-	 source: "e";
-	 action: STATE_SET "active" 0.0;
-	 target: "ac";
+         signal: "mouse,out"; source: "over";
+         action: STATE_SET "default" 0.0;
+         transition: LINEAR 0.3;
+         target: "info_clip";
       }
       program {
-	 name: "discharge";
-	 signal: "e,state,discharging";
-	 source: "e";
-	 action: STATE_SET "default" 0.0;
-	 target: "fade_clip";
+		name: "charge";
+		signal: "e,state,charging";
+		source: "e";
+		action: STATE_SET "default" 0.0;
+		target: "fade_clip";
       }
       program {
-	 name: "discharge2";
-	 signal: "e,state,discharging";
-	 source: "e";
-	 action: STATE_SET "default" 0.0;
-	 target: "ac";
+		name: "charge2";
+		signal: "e,state,charging";
+		source: "e";
+		action: STATE_SET "active" 0.0;
+		target: "ac";
       }
       program {
-	 name: "unknown";
-	 signal: "e,state,unknown";
-	 source: "e";
-	 action: STATE_SET "faded" 0.0;
-	 target: "fade_clip";
+		name: "discharge";
+		signal: "e,state,discharging";
+		source: "e";
+		action: STATE_SET "default" 0.0;
+		target: "fade_clip";
       }
       program {
-	 name: "pulse";
-	 signal: "e,action,pulse,start";
-	 source: "e";
-	 action: STATE_SET "faded" 0.0;
-	 transition: ACCELERATE 0.3;
-	 after: "pulse2";
-	 target: "pulse_clip";
+		name: "discharge2";
+		signal: "e,state,discharging";
+		source: "e";
+		action: STATE_SET "default" 0.0;
+		target: "ac";
       }
       program {
-	 name: "pulse2";
-	 signal: "pulse2";
-	 source: "e";
-	 action: STATE_SET "faded" 1.0;
-	 transition: ACCELERATE 0.1;
-	 target: "pulse_clip";
+		name: "unknown";
+		signal: "e,state,unknown";
+		source: "e";
+		action: STATE_SET "faded" 0.0;
+		target: "fade_clip";
       }
       program {
-	 name: "pulsestop";
-	 signal: "e,action,pulse,stop";
-	 source: "e";
-	 action: STATE_SET "default" 0.0;
-	 target: "pulse_clip";
+		name: "pulse";
+		signal: "e,action,pulse,start";
+		source: "e";
+		action: STATE_SET "faded" 0.0;
+		transition: ACCELERATE 0.3;
+		after: "pulse2";
+		target: "pulse_clip";
+      }
+      program {
+		name: "pulse2";
+		signal: "pulse2";
+		source: "e";
+		action: STATE_SET "faded" 1.0;
+		transition: ACCELERATE 0.1;
+		target: "pulse_clip";
+      }
+      program {
+		name: "pulsestop";
+		signal: "e,action,pulse,stop";
+		source: "e";
+		action: STATE_SET "default" 0.0;
+		target: "pulse_clip";
       }
    }
 }
