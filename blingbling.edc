@@ -1,7 +1,7 @@
 data {
    item: "theme/name"     "BlingBling";
-   item: "theme/version"  "0.8";
-   item: "theme/author"   "Raster & E17 Developers, E20 port by mbert with help from Duma, Elementary code by 'rpil'.";
+   item: "theme/version"  "0.9";
+   item: "theme/author"   "Raster & E17 Developers, E20 port by mbert with help from Duma, v.0.9 by the_waiter, Elementary code by 'rpil'.";
    item: "theme/license"  "GPL";
    item: "version"        "110"; // theme api version. from 1.10 on we will check version to avoid compat issues
 }
@@ -134,6 +134,8 @@ collections {
 #include "default_spectrum.edc"
 #include "default_color_well.edc"
 #include "default_sys.edc"
+#include "default_syscon.edc"
+#include "default_systray.edc"
 #include "default_deskpreview.edc"
 #include "default_fontpreview.edc"
 #include "default_wizard.edc"
@@ -142,4 +144,5 @@ collections {
 #include "default_mixer.edc"
 #include "default_connman.edc"
 #include "default_taskbar.edc"
+#include "default_evrything.edc"
 }

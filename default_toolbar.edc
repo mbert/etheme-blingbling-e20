@@ -85,11 +85,12 @@ group {
          description {
             state: "default" 0.0;
             image.normal: "elm-icon_left_arrow.png";
-            aspect: 1.0 1.0;
-            aspect_preference: VERTICAL;
+            //~ aspect: 1.0 1.0;
+            //~ aspect_preference: VERTICAL;
+            rel1.offset: 6 0;
             align: 0.0 0.5;
-            min: 32 32;
-            max: 32 32;
+            min: 13 17;
+			max: 13 17;
          }
          description {
             state: "hidden" 0.0;
@@ -105,11 +106,12 @@ group {
          description {
             state: "default" 0.0;
             image.normal: "elm-icon_right_arrow.png";
-            aspect: 1.0 1.0;
-            aspect_preference: VERTICAL;
+            //~ aspect: 1.0 1.0;
+            //~ aspect_preference: VERTICAL;
             align: 1.0 0.5;
-            min: 32 32;
-            max: 32 32;
+            rel1.offset: -7 1;
+            min: 13 17;
+            max: 13 17;
          }
          description {
             state: "hidden" 0.0;
@@ -207,10 +209,7 @@ group {
 }
 group {
    name: "e/widgets/toolbar/item";
-   images {
-      image: "elm-toolbar_sel.png" COMP;
-   }
-   parts {
+    parts {
       part {
          name: "label2";
          type: TEXT;
@@ -246,9 +245,12 @@ group {
             state: "default" 0.0;
             visible: 0;
             color: 255 255 255 0;
+            //~ rel1.offset: 0 2;
+            rel2.offset: 0 -2; 
             image {
                normal: "elm-toolbar_sel.png";
-               border: 3 3 0 0;
+               border: 4 4 0 0;
+               
             }
             fill.smooth: 0;
          }

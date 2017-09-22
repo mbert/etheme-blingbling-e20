@@ -216,7 +216,7 @@ group {
    }
 }
 group {
-   name: "e/icons/enlightenment/logout";
+   name: "e/icons/system-log-out";
    max:  64 64;
    parts {
       part {
@@ -254,7 +254,7 @@ group {
    }
 }
 group {
-   name: "e/icons/enlightenment/reboot";
+   name: "e/icons/system-restart";
    max:  64 64;
    parts {
       part {
@@ -273,7 +273,7 @@ group {
    }
 }
 group {
-   name: "e/icons/enlightenment/suspend";
+   name: "e/icons/system-suspend";
    max:  64 64;
    parts {
       part {
@@ -292,7 +292,7 @@ group {
    }
 }
 group {
-   name: "e/icons/enlightenment/hibernate";
+   name: "e/icons/system-suspend-hibernate";
    max:  64 64;
    parts {
       part {
