@@ -74,8 +74,8 @@ group { name: "elm/button/base/default";
             rel1.relative: 1.0 0.0;
             rel1.offset: 0 2;
             rel2.offset: -14 -3;
-            color: 224 224 224 255;
-            color3: 0 0 0 64;
+            color: 22 22 22 222;
+            color3: 0 0 0 0;
             text {
                font:     "Sans,Edje-Vera";
                size:     10;
@@ -458,7 +458,7 @@ group { name: "elm/button/base/hoversel_vertical/default";
             rel1.relative: 1.0 0.0;
             rel1.offset: 0 2;
             rel2.offset: -3 -3;
-            color: 224 224 224 255;
+            color: 0 0 0 128;
             color3: 0 0 0 64;
             text {
                font:     "Sans,Edje-Vera";
