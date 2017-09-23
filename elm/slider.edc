@@ -1316,9 +1316,9 @@ group { name: "elm/slider/horizontal/indicator/default";
       part { name: "button4";
          mouse_events: 0;
          description { state: "default" 0.0;
-            fixed: 1 1;
-            max: 32 32;
-            min: 32 32;
+               visible: 0;
+               max: 15 999;
+               min: 15 32;
             rel1 {
                to_x: "button0";
                to_y: "elm.indicator";
