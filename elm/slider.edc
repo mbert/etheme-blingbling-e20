@@ -73,7 +73,7 @@ group { name: "elm/slider/horizontal/default";
                to_x: "elm.dragable.slider";
                relative: 0.5 1.0;
             }
-            color: 255 0 0 200;
+            color: 230 190 100 200;
          }
          description { state: "inverted" 0.0;
             inherit: "default" 0.0;

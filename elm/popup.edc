@@ -139,7 +139,7 @@ group { name: "elm/popup/base/default";
             fixed : 1 1;
             align: 0.5 0.0;
             visible: 0;
-            color: 172 172 172 255;
+            color: 237 237 237 255;
             rel1 {
                relative: 0.5 0.0;
                to: "base";
@@ -276,7 +276,7 @@ group { name: "elm/popup/base/default";
             fixed : 1 1;
             align: 0.5 1.0;
             visible: 0;
-            color: 183 183 183 255;
+            color: 237 237 237 255;
             rel1 {
                relative: 0.0 1.0;
                to: "base";
@@ -607,7 +607,7 @@ group { name: "elm/popup/content/default";
                   to:"padding_right_bottom";
                }
                align: 0.0 0.5;
-               color: 0 0 0 255;
+               color: 255 255 255 255;
                text {
                   font: "Sans:style=Bold";
                   size: 20;
