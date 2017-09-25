@@ -134,7 +134,8 @@ group {
 	       text: 
 "This is <hilight>BLING BLING</hilight> for E19/E20."
 "<br><br>"
-"Ported by <hilight>Martin 'mbert' Dietze</hilight> and <hilight>the_waiter</hilight> "
+"Ported by <hilight>Martin 'mbert' Dietze</hilight> <br> and <br>"
+"<hilight>Stefan 'the_waiter' Uram</hilight> <br>"
 "using code by <hilight>Agustin J Verdegal T.</highlight> and <hilight>'rpil'</hilight>"
 "with help from <hilight>Alberto 'Duma' Verdoja</hilight><br>";
 
