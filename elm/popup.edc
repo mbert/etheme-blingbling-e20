@@ -116,7 +116,7 @@ group { name: "elm/label/base/popup/default";
 group { name: "elm/popup/base/default";
    styles {
       style { name: "popup_title_style";
-         base: "font=Sans font_size=15 align=center color=#ffffff wrap=mixed ellipsis=1.0";
+         base: "font=Sans font_size=15 align=center style=outline_soft_shadow shadow_color=#00000032 color=#ffffff wrap=mixed ellipsis=1.0";
          tag:  "br" "\n";
          tag:  "tab" "\t";
       }
@@ -272,7 +272,7 @@ group { name: "elm/popup/base/default";
          type: RECT;
          scale : 1;
          description { state: "default" 0.0;
-            min: 400 60;
+            min: 400 30;
             fixed : 1 1;
             align: 0.5 1.0;
             visible: 0;
