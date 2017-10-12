@@ -1,6 +1,8 @@
 images {
    image: "e17_ilist_bg0.png" COMP;
    image: "e17_ilist_bg1.png" COMP;
+   image: "e17_titlebar_shadow2.png" COMP;
+   image: "e17_titlebar_shadow1.png" COMP;
 }
 group {
    name: "e/widgets/ilist";
@@ -173,16 +175,16 @@ group {
 	       relative: 1.0  1.0;
 	       offset:   -5 -5;
 	    }
-	    color: 0 0 0 255;
-	    color3: 255 255 255 128;
+	    color: 0 0 0 150;
+	    color3: 220 220 220 250;
 	    color_class: "ilist_item";
 	    text {
 	       text:     "Item Label";
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
-               ellipsis: -1;
 	       align:    0.0 0.5;
+	       ellipsis: -1;
 	       text_class: "ilist_item";	       
 	    }
 	 }
@@ -351,7 +353,25 @@ group {
 	    visible:  1;
 	    color:    255 255 255 255;
 	 }
-      }
+      }      
+     part{
+	    name:          "e.swallow.end";
+	    type:          SWALLOW;
+	    description {
+	       state:    "default" 0.0;
+	       align:    1.0 0.5;
+	       aspect:   1.0 1.0;
+	       aspect_preference: VERTICAL;
+	       rel1 {
+		  relative: 1.0  0.0;
+		  offset:   -5    4;
+	       }
+	       rel2 {
+		  relative: 1.0  1.0;
+		  offset:   -5   -5;
+	       }
+	    }
+	 }
       part {
 	 name:           "event";
 	 type:           RECT;
@@ -641,15 +661,15 @@ group {
 	       relative: 1.0  1.0;
 	       offset:   -5 -5;
 	    }
-	    color: 0 0 0 255;
-	    color3: 255 255 255 128;
+	    color: 0 0 0 150;
+	    color3: 220 220 220 250;
 	    color_class: "ilist_item_odd";	    
 	    text {
 	       text:     "Item Label";
 	       font:     "Edje-Vera";
 	       size:     10;
 	       min:      1 1;
-               ellipsis: -1;
+	       ellipsis: -1;
 	       align:    0.0 0.5;
                text_class: "ilist_item";
 	    }
@@ -819,7 +839,25 @@ group {
 	    visible:  1;
 	    color:    255 255 255 255;
 	 }
-      }
+      }      
+       part{
+	    name:          "e.swallow.end";
+	    type:          SWALLOW;
+	    description {
+	       state:    "default" 0.0;
+	       align:    1.0 0.5;
+	       aspect:   1.0 1.0;
+	       aspect_preference: VERTICAL;
+	       rel1 {
+		  relative: 1.0  0.0;
+		  offset:   -5    4;
+	       }
+	       rel2 {
+		  relative: 1.0  1.0;
+		  offset:   -5   -5;
+	       }
+	    }
+	 }
       part {
 	 name:           "event";
 	 type:           RECT;
@@ -990,19 +1028,37 @@ group {
 	       offset:   -5 -5;
 	    }
 	    color: 255 255 255 255;
-	    color3: 0 0 0 64;
+	    color2: 0 0 0 64;
 	    color_class: "ilist_header";	    
 	    text {
 	       text:     "Item Label";
-               font: "Sans:style=Bold,Edje-Vera-Bold";
+	       font:     "Edje-Vera-Bold";
 	       size:     16;
 	       min:      1 1;
-               ellipsis: -1;
 	       align:    0.0 0.5;
+	       ellipsis: -1;
 	       text_class: "ilist_header";
 	    }
 	 }
       }
+      part{
+	    name:          "e.swallow.end";
+	    type:          SWALLOW;
+	    description {
+	       state:    "default" 0.0;
+	       align:    1.0 0.5;
+	       aspect:   1.0 1.0;
+	       aspect_preference: VERTICAL;
+	       rel1 {
+		  relative: 1.0  0.0;
+		  offset:   -5    4;
+	       }
+	       rel2 {
+		  relative: 1.0  1.0;
+		  offset:   -5   -5;
+	       }
+	    }
+	 }
       part {
 	 name:           "event";
 	 type:           RECT;
@@ -1013,3 +1069,146 @@ group {
       }
    }
 }
+
+group {
+   name: "e/widgets/ilist_header_odd";
+   parts {
+      part {
+	 name: "base";
+	 mouse_events: 0;
+	 description {
+	    state: "default" 0.0;
+	    color: 64 64 64 255;
+	    image {
+	       normal: "e17_ilist_bg0.png";
+	       border: 3 3 3 3;
+	    }
+	 }
+      }
+      part {
+	 name:          "e.swallow.icon";
+	 type:          SWALLOW;
+	 description {
+	    state:    "default" 0.0;
+	    align:    0.0 0.5;
+	    aspect:   1.0 1.0;
+	    aspect_preference: VERTICAL;
+//	    fixed:    1 1;
+	    rel1 {
+	       relative: 0.0  0.0;
+	       offset:   4    4;
+	    }
+	    rel2 {
+	       relative: 0.0  1.0;
+	       offset:   4   -5;
+	    }
+	 }
+      }
+      part {
+	 name:           "e.text.label";
+	 type:           TEXT;
+	 effect:         SOFT_SHADOW;
+	 mouse_events:   0;
+	 description {
+	    state: "default" 0.0;
+	    min:      16 16;
+	    rel1 {
+	       to_x:     "e.swallow.icon";
+	       relative: 1.0  0.0;
+	       offset:   16 4;
+	    }
+	    rel2 {
+	       relative: 1.0  1.0;
+	       offset:   -5 -5;
+	    }
+	    color: 255 255 255 255;
+	    color2: 0 0 0 64;
+	    color_class: "ilist_header";	    
+	    text {
+	       text:     "Item Label";
+	       font:     "Edje-Vera-Bold";
+	       size:     16;
+	       min:      1 1;
+	       align:    0.0 0.5;
+	       ellipsis: -1;
+	       text_class: "ilist_header";
+	    }
+	 }
+      }
+      part{
+	    name:          "e.swallow.end";
+	    type:          SWALLOW;
+	    description {
+	       state:    "default" 0.0;
+	       align:    1.0 0.5;
+	       aspect:   1.0 1.0;
+	       aspect_preference: VERTICAL;
+	       rel1 {
+		  relative: 1.0  0.0;
+		  offset:   -5    4;
+	       }
+	       rel2 {
+		  relative: 1.0  1.0;
+		  offset:   -5   -5;
+	       }
+	    }
+	 }
+      part {
+	 name:           "event";
+	 type:           RECT;
+	 description {
+	    state: "default" 0.0;
+	    color: 0 0 0 0;
+	 }
+      }
+   }
+}
+
+   group { name: "e/widgets/ilist/toggle_end";
+      parts {
+	 part {
+	    name: "icon";
+	    type: IMAGE;
+	    description {
+	       state:    "default" 0.0;
+	       color:    255 255 255 0;
+	       visible: 0;
+	       max: 16 16;
+	       align:    1.0 0.5;
+	       aspect:   1.0 1.0;
+	       aspect_preference: VERTICAL;
+	       rel1 {
+		  relative: 0.0  0.0;
+		  offset:   20    4;
+	       }
+	       rel2 {
+		  relative: 0.0  1.0;
+		  offset:   20   -5;
+	       }
+	       image.normal: "e17_menu_radio2.png";
+	    }
+	    description {
+	       state:    "visible" 0.0;
+	       inherit:  "default" 0.0;
+	       color:    255 255 255 255;
+	       visible: 1;
+	    }
+	 }
+      }
+      programs {
+	 program {
+	    signal:  "e,state,checked";
+	    source: "e";
+	    action: STATE_SET "visible" 0.0;
+	    target: "icon";
+	    transition: LINEAR 0.1;
+	 }
+	 program {
+	    signal:  "e,state,unchecked";
+	    source: "e";
+	    action: STATE_SET "default" 0.0;
+	    target: "icon";
+	    transition: LINEAR 0.1;
+	 }
+      }
+   }
