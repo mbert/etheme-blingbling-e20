@@ -425,6 +425,8 @@ group { name: "elm/menu/item_with_submenu/default";
             color: 255 255 255 255;
             align: 1.0 0.5;
             aspect: 1 1;
+            min: 15 15;
+            max: 15 15;
             aspect_preference: BOTH;
             image {
                normal: "elm-arrow_right.png";
