@@ -374,6 +374,7 @@ group { name: "elm/menu/item_with_submenu/default";
       image: "elm-bt_dis_hilight.png" COMP;
       image: "elm-arrow_right.png" COMP;
       image: "elm-arrow_left.png" COMP;
+      image: "e17_menu_arrow.png" COMP;
    }
    script {
       public menu_text_visible; //0:hide (default), 1:visible
@@ -424,13 +425,13 @@ group { name: "elm/menu/item_with_submenu/default";
          description { state: "default" 0.0;
             color: 255 255 255 255;
             align: 1.0 0.5;
-            rel2.offset: 10 0;
-            aspect: 1 1;
-            min: 15 15;
-            max: 15 15;
-            aspect_preference: BOTH;
+            rel2.offset: 4 0;
+            //~ aspect: 1 1;
+            min:   6 12;
+	        max:   6 12;
+            //~ aspect_preference: BOTH;
             image {
-               normal: "elm-arrow_right.png";
+               normal: "e17_menu_arrow.png";
             }
          }
          description { state: "rtl" 0.0;
