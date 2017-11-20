@@ -1280,7 +1280,7 @@ group { name: "elm/entry/cursor/default";
          scale: 1;
          clip_to: "clip";
          description { state: "default" 0.0;
-            min: 2 2;
+            min: 1 20;
             align: 0.5 1.0;
             rel1.relative: 0.0 1.0;
             rel1.offset: 0 -1;
