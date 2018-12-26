@@ -285,6 +285,11 @@ group { name: "elm/spinner/base/default";
             color: 0 0 0 128;
             color3: 0 0 0 0;
          }
+         description { state: "visible" 0.0;
+            inherit:  "default" 0.0;
+            visible: 1;
+            color: 255 255 255 255;
+         }
       }
       part { name: "elm.dragable.slider";
          type: RECT;
