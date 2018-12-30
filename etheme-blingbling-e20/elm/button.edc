@@ -1103,6 +1103,10 @@ group { name: "elm/button/base/anchor";
             inherit:  "default" 0.0;
             visible: 0;
          }
+         description { state: "visible" 0.0;
+            inherit: "default" 0.0;
+            visible: 1;
+         }
       }
       part { name: "over3";
          mouse_events: 1;
@@ -1130,6 +1134,10 @@ group { name: "elm/button/base/anchor";
          description { state: "disabled" 0.0;
             inherit: "default" 0.0;
             visible: 1;
+         }
+         description { state: "visible" 0.0;
+            inherit: "default" 0.0;
+            color: 255 255 255 255;
          }
       }
       // used to force sizing of icon to follow label sizing nearby
