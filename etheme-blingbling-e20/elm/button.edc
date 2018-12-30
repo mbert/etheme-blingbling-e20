@@ -112,7 +112,7 @@ group { name: "elm/button/base/default";
          description { state: "default" 0.0;
             rel2.relative: 1.0 0.5;
             image {
-               // hack: simply apply the 'shine' image again, 
+               // hack: simply apply the 'shine' image again,
                // I don't really like that milkiness
                normal: "elm-bt_shine.png";
                border: 8 8 8 8;
@@ -512,7 +512,7 @@ group { name: "elm/button/base/hoversel_vertical/default";
          description { state: "default" 0.0;
             rel2.relative: 1.0 0.5;
             image {
-               // hack: simply apply the 'shine' image again, 
+               // hack: simply apply the 'shine' image again,
                // I don't really like that milkiness
                normal: "elm-bt_shine.png";
                border: 8 8 8 8;
@@ -1070,7 +1070,7 @@ group { name: "elm/button/base/anchor";
             color: 255 255 255 0;
             rel2.relative: 1.0 0.5;
             image {
-               // hack: simply apply the 'shine' image again, 
+               // hack: simply apply the 'shine' image again,
                // I don't really like that milkiness
                normal: "elm-bt_shine.png";
                border: 8 8 8 8;
@@ -1369,7 +1369,7 @@ group { name: "elm/button/base/colorselector/left/default";
          description { state: "default" 0.0;
             rel2.relative: 1.0 0.5;
             image {
-               // hack: simply apply the 'shine' image again, 
+               // hack: simply apply the 'shine' image again,
                // I don't really like that milkiness
                normal: "elm-bt_shine.png";
                border: 8 8 8 8;
@@ -1558,7 +1558,7 @@ group { name: "elm/button/base/colorselector/right/default";
          description { state: "default" 0.0;
             rel2.relative: 1.0 0.5;
             image {
-               // hack: simply apply the 'shine' image again, 
+               // hack: simply apply the 'shine' image again,
                // I don't really like that milkiness
                normal: "elm-bt_shine.png";
                border: 8 8 8 8;

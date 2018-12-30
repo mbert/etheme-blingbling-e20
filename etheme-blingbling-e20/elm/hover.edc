@@ -1468,7 +1468,7 @@ group { name: "elm/hover/base/hoversel_horizontal/default";
          transition: DECELERATE 0.5;
          target: "button_image";
       }
-   
+
       program { name: "righthide";
          signal: "elm,action,slot,right,hide";
          source: "elm";
