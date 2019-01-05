@@ -177,7 +177,7 @@ group { name: "elm/scroller/base/default";
          dragable.y: 1 1 0;
          dragable.confine: "sb_vbar";
          description { state: "default" 0.0;
-            min: 14 15;
+            min: 14 4;
             max: 14 99999;
             rel1.relative: 0.5  0.5;
             rel1.to: "sb_vbar";
@@ -234,7 +234,7 @@ group { name: "elm/scroller/base/default";
             rel2.to: "sb_vbar";
             color_class: "dialog_base";
             max: 16 99999;
-            min: 16 44;
+            min: 16 4;
 			fixed: 1 0;
          }
       }
