@@ -1,4 +1,8 @@
-# Port of the "blingbling" Enlightenment theme to e20
+# BlingBling theme for enlightenment
+
+BlingBling Enlightenment theme is the old default theme for Enlightenment:
+
+It is intended to be conservative and still show off some aspects of Enlightenment such as the ability to animate transitions and do different layouts for objects. 
 
 The original theme was created by Rasterman. Further work on it was done by 'verdegal37' and published [here](http://e17-stuff.org/content/show.php?content=108719).
 
