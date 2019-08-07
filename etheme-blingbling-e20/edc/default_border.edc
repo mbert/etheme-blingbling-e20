@@ -1318,7 +1318,7 @@ group {
 	 name:    "close_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -1329,7 +1329,7 @@ group {
 	 target:  "close_shadow1";
 	 target:  "close_shadow2";
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 after:   "close_passive";
 	 after:   "close_passive_p";
       }
@@ -1383,7 +1383,7 @@ group {
 	 name:    "maximize_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "maximize_bg";
-	 target:  "maximize_detail";
+	 //~ target:  "maximize_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -1394,7 +1394,7 @@ group {
 	 target:  "maximize_shadow1";
 	 target:  "maximize_shadow2";
 	 target:  "maximize_bg";
-	 target:  "maximize_detail";
+	 //~ target:  "maximize_detail";
 	 after:   "maximize_passive";
 	 after:   "maximize_passive_p";
       }
@@ -1448,7 +1448,7 @@ group {
 	 name:    "minimize_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "minimize_bg";
-	 target:  "minimize_detail";
+	 //~ target:  "minimize_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -1459,7 +1459,7 @@ group {
 	 target:  "minimize_shadow1";
 	 target:  "minimize_shadow2";
 	 target:  "minimize_bg";
-	 target:  "minimize_detail";
+	 //~ target:  "minimize_detail";
 	 after:   "minimize_passive";
 	 after:   "minimize_passive_p";
       }
@@ -2372,7 +2372,7 @@ group {
 	 name:    "close_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -2383,7 +2383,7 @@ group {
 	 target:  "close_shadow1";
 	 target:  "close_shadow2";
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 after:   "close_passive";
 	 after:   "close_passive_p";
       }
@@ -2437,7 +2437,7 @@ group {
 	 name:    "maximize_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "maximize_bg";
-	 target:  "maximize_detail";
+	 //~ target:  "maximize_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -2448,7 +2448,7 @@ group {
 	 target:  "maximize_shadow1";
 	 target:  "maximize_shadow2";
 	 target:  "maximize_bg";
-	 target:  "maximize_detail";
+	 //~ target:  "maximize_detail";
 	 after:   "maximize_passive";
 	 after:   "maximize_passive_p";
       }
@@ -2502,7 +2502,7 @@ group {
 	 name:    "minimize_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "minimize_bg";
-	 target:  "minimize_detail";
+	 //~ target:  "minimize_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -2513,7 +2513,7 @@ group {
 	 target:  "minimize_shadow1";
 	 target:  "minimize_shadow2";
 	 target:  "minimize_bg";
-	 target:  "minimize_detail";
+	 //~ target:  "minimize_detail";
 	 after:   "minimize_passive";
 	 after:   "minimize_passive_p";
       }
@@ -3540,7 +3540,7 @@ group {
 	 target:  "close_shadow1";
 	 target:  "close_shadow2";
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 after:   "close_active";
 	 after:   "close_active_p";
       }
@@ -3561,7 +3561,7 @@ group {
 	 name:    "close_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -3572,7 +3572,7 @@ group {
 	 target:  "close_shadow1";
 	 target:  "close_shadow2";
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 after:   "close_passive";
 	 after:   "close_passive_p";
       }
@@ -3626,7 +3626,7 @@ group {
 	 name:    "maximize_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "maximize_bg";
-	 target:  "maximize_detail";
+	 //~ target:  "maximize_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -3637,7 +3637,7 @@ group {
 	 target:  "maximize_shadow1";
 	 target:  "maximize_shadow2";
 	 target:  "maximize_bg";
-	 target:  "maximize_detail";
+	 //~ target:  "maximize_detail";
 	 after:   "maximize_passive";
 	 after:   "maximize_passive_p";
       }
@@ -3670,7 +3670,7 @@ group {
 	 target:  "minimize_shadow1";
 	 target:  "minimize_shadow2";
 	 target:  "minimize_bg";
-	 target:  "minimize_detail";
+	 //~ target:  "minimize_detail";
 	 after:   "minimize_active";
 	 after:   "minimize_active_p";
       }
@@ -3691,7 +3691,7 @@ group {
 	 name:    "minimize_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "minimize_bg";
-	 target:  "minimize_detail";
+	 //~ target:  "minimize_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -3702,7 +3702,7 @@ group {
 	 target:  "minimize_shadow1";
 	 target:  "minimize_shadow2";
 	 target:  "minimize_bg";
-	 target:  "minimize_detail";
+	 //~ target:  "minimize_detail";
 	 after:   "minimize_passive";
 	 after:   "minimize_passive_p";
       }
@@ -4840,7 +4840,7 @@ group {
 	 name:    "close_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -4851,7 +4851,7 @@ group {
 	 target:  "close_shadow1";
 	 target:  "close_shadow2";
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 after:   "close_passive";
 	 after:   "close_passive_p";
       }
@@ -5908,7 +5908,7 @@ group {
 	 name:    "close_active_p";
 	 action:  STATE_SET "active" 0.0;
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 transition: LINEAR 0.1;
       }
       program {
@@ -5919,7 +5919,7 @@ group {
 	 target:  "close_shadow1";
 	 target:  "close_shadow2";
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 after:   "close_passive";
 	 after:   "close_passive_p";
       }
@@ -5940,7 +5940,7 @@ group {
 	 name:    "close_passive_p";
 	 action:  STATE_SET "default" 0.0;
 	 target:  "close_bg";
-	 target:  "close_detail";
+	 //~ target:  "close_detail";
 	 transition: LINEAR 0.2;
       }
 

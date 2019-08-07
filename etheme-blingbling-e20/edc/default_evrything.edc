@@ -1032,7 +1032,7 @@ group { name: "e/modules/everything/thumbview/main/scrollframe";
       program {
          signal: "mouse,down,1*"; source: "sb_vbar_a1";
          action: STATE_SET "clicked" 0.0;
-         target: "sb_vbar_a1";
+         //~ target: "sb_vbar_a1";
          target: "arrow1_vbar";
       }
       program {
@@ -1049,7 +1049,7 @@ group { name: "e/modules/everything/thumbview/main/scrollframe";
       program {
          signal: "mouse,down,1*"; source: "sb_vbar_a2";
          action: STATE_SET "clicked" 0.0;
-         target: "sb_vbar_a2";
+         //~ target: "sb_vbar_a2";
          target: "arrow2_vbar";
       }
       program {
@@ -1155,7 +1155,7 @@ group { name: "e/modules/everything/thumbview/main/scrollframe";
       program {
          signal: "mouse,down,1*"; source: "e.dragable.vbar";
          action: STATE_SET "clicked" 0.0;
-         target: "e.dragable.vbar";
+         //~ target: "e.dragable.vbar";
          target: "shadow_vbar";
       }
       program {

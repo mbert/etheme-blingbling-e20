@@ -614,7 +614,7 @@ part {
 				name: "go_active";
 				signal: "label_active";
 				source: "*";
-				action: STATE_SET "visible" 0.1;
+				action: STATE_SET "visible" 0.0;
 				transition: SINUSOIDAL 0.5;
 				target: "real_label";
 				target: "swap_label";

@@ -750,7 +750,7 @@ group { name: "elm/progressbar/vertical/default";
          source: "elm";
          action:  STATE_SET "invert" 0.0;
          target: "elm.progress.progressbar";
-         target: "elm.cur.progressbar";
+         //~ target: "elm.cur.progressbar";
       }
       program { name: "set_invert_off";
          signal: "elm,state,inverted,off";

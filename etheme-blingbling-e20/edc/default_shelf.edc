@@ -1153,7 +1153,7 @@ group {
    }
    parts {
     
-      part {
+     part {
 	 name:          "e.swallow.content";
 	 type:          SWALLOW;
 	 description {
@@ -1164,9 +1164,9 @@ group {
 	    rel2 {
 	       to: "base";
 	    }
-	 }
-      }
-      part {
+	  }
+     }
+     part {
 	 name:          "base";
 	 mouse_events:  1;
 	 type:          RECT;
@@ -1258,7 +1258,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "top_left" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient3";
@@ -1266,7 +1266,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "top_right" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient4";
@@ -1274,7 +1274,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "bottom" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient5";
@@ -1282,7 +1282,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "bottom_left" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient6";
@@ -1290,7 +1290,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "bottom_right" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient7";
@@ -1298,7 +1298,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "left" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient8";
@@ -1306,7 +1306,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "left_top" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient9";
@@ -1314,7 +1314,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "left_bottom" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient10";
@@ -1322,7 +1322,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "right" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient11";
@@ -1330,7 +1330,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "right_top" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
       program {
 	 name:    "orient12";
@@ -1338,7 +1338,7 @@ group {
 	 source:  "e";
 	 action:  STATE_SET "right_bottom" 0.0;
 	 target:  "base";
-	 target:  "e.swallow.content";
+	 //~ target:  "e.swallow.content";
       }
    }
 }
