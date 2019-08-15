@@ -196,7 +196,7 @@ group {
       part {
 	 name:          "e.swallow.content";
 	 type:          SWALLOW;
-//	 clip_to:       "item_clip";
+	//~ clip_to:       "item_clip";
 	 description {
 	    state:    "default" 0.0;
 	    rel1 {
@@ -210,7 +210,6 @@ group {
 	 }
 	 description {
 	    state:    "top_left" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2    2;
@@ -222,7 +221,6 @@ group {
 	 }
 	 description {
 	    state:    "top_right" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   18   2;
@@ -234,7 +232,6 @@ group {
 	 }
 	 description {
 	    state:    "bottom" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   18   2;
@@ -246,7 +243,6 @@ group {
 	 }
 	 description {
 	    state:    "bottom_left" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2   2;
@@ -258,7 +254,6 @@ group {
 	 }
 	 description {
 	    state:    "bottom_right" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   18   2;
@@ -270,19 +265,17 @@ group {
 	 }
 	 description {
 	    state:    "left" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2    18;
 	    }
 	    rel2 {
 	       relative: 1.0  1.0;
-	       offset:   -3   -19;
+	       offset:   -2   -19;
 	    }
 	 }
 	 description {
 	    state:    "left_top" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2    2;
@@ -294,7 +287,6 @@ group {
 	 }
 	 description {
 	    state:    "left_bottom" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2    18;
@@ -306,7 +298,6 @@ group {
 	 }
 	 description {
 	    state:    "right" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2    18;
@@ -318,7 +309,6 @@ group {
 	 }
 	 description {
 	    state:    "right_top" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2    2;
@@ -330,7 +320,6 @@ group {
 	 }
 	 description {
 	    state:    "right_bottom" 0.0;
-	    inherit:  "default" 0.0;
 	    rel1 {
 	       relative: 0.0  0.0;
 	       offset:   2    18;
