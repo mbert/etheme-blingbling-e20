@@ -133,9 +133,9 @@ group { name: "e/modules/systray/main";
       name: "e/modules/systray/main/alternate";
       alias: "e/modules/systray/main/alternate_vertical";
       data {
-         item: "inset" "233 205 131";
-         item: "plain" "233 205 131";
-         item: "default" "233 205 131";
+         item: "inset" "225 200 128";
+         item: "plain" "225 200 128";
+         item: "default" "225 200 128";
       }
      parts {
       part { name: "base"; type: RECT;
