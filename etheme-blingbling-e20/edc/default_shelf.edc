@@ -200,7 +200,7 @@ group {
             state: "default" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 12 0;
+               offset: 16 0;
             }
             rel2 {
                relative: 1.0 1.0;
@@ -211,11 +211,11 @@ group {
             state: "top" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 12 0;
+               offset: 16 0;
             }
             rel2 {
                relative: 1.0 1.0;
-               offset: -12 -2;
+               offset: -16 -2;
             }
          }
          description {
@@ -226,14 +226,14 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
-               offset: -12 -2;
+               offset: -16 -2;
             }
          }
          description {
             state: "top_right" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 12 0;
+               offset: 16 0;
             }
             rel2 {
                relative: 1.0 1.0;
@@ -244,11 +244,11 @@ group {
             state: "bottom" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 12 2;
+               offset: 16 2;
             }
             rel2 {
                relative: 1.0 1.0;
-               offset: -12 -1;
+               offset: -16 -1;
             }
          }
          description {
@@ -259,14 +259,14 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
-               offset: -12 -1;
+               offset: -16 -1;
             }
          }
          description {
             state: "bottom_right" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 12 2;
+               offset: 16 2;
             }
             rel2 {
                relative: 1.0 1.0;
@@ -281,7 +281,7 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
-               offset: -2 -12;
+               offset: -2 -16;
             }
          }
          description {
@@ -299,7 +299,7 @@ group {
             state: "left_bottom" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 2 18;
+               offset: 2 16;
             }
             rel2 {
                relative: 1.0 1.0;
@@ -310,11 +310,11 @@ group {
             state: "right" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 2 18;
+               offset: 2 16;
             }
             rel2 {
                relative: 1.0 1.0;
-               offset: -3 -13;
+               offset: -3 -16;
             }
          }
          description {
@@ -325,14 +325,14 @@ group {
             }
             rel2 {
                relative: 1.0 1.0;
-               offset: -3 -13;
+               offset: -3 -16;
             }
          }
          description {
             state: "right_bottom" 0.0;
             rel1 {
                relative: 0.0 0.0;
-               offset: 2 18;
+               offset: 2 16;
             }
             rel2 {
                relative: 1.0 1.0;
