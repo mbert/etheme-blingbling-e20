@@ -166,7 +166,7 @@ group { name: "elm/datetime/base/default";
          source: "elm";
          action: STATE_SET "visible" 0.0;
          target: "disabler";
-         target: "clipper";
+         //~ target: "clipper";
       }
       program { name: "enable_datetime";
          signal: "elm,state,enabled";

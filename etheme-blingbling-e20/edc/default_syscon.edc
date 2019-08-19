@@ -348,7 +348,25 @@ group {
 				}
 			}
 		}
-
+			part { name: "glow"; mouse_events: 0;
+				description { state: "default" 0.0;
+				image.normal: "e17_button_sm.png";
+				image.border: 9 9 9 9;
+				image.middle: 0;
+				rel1.to: "button_base";
+				rel1.offset: -3 -3 ;
+				rel2.to: "button_base";
+				rel2.offset: 3 3;
+				fill.smooth: 0;
+				color: 255 255 255 0;
+				visible: 0;
+				}
+				description { state: "focused" 0.0;
+				inherit: "default" 0.0;
+					color: 255 255 255 125;
+					visible: 1;
+         }
+      }  
 		part {
 			name: "button_clip";
 			type: RECT;
@@ -600,6 +618,14 @@ group {
 			target: "shadow_overlay";
 			target: "disabler";
 		}
+		program { signal: "e,state,focused"; source: "e";
+			action: STATE_SET "focused" 0.0;
+			target: "glow";
+	}
+	  program { signal: "e,state,unfocused"; source: "e";
+			action: STATE_SET "default" 0.0;
+			target: "glow";
+	} 
 	}
 }
 
