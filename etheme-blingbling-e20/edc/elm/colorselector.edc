@@ -508,8 +508,8 @@ group { name: "elm/colorselector/item/default";
          scale: 1;
          description { state: "default" 0.0;
             min: 20 20;
-            rel1.to: "color_obj";
-            rel2.to: "color_obj";
+            rel1.to: "elm.color_obj";
+            rel2.to: "elm.color_obj";
             color: 20 20 20 255;
          }
       }
@@ -523,15 +523,15 @@ group { name: "elm/colorselector/item/default";
       }
       part { name: "clipper"; type: RECT;
          description { state: "default" 0.0;
-            rel1.to: "color_obj";
-            rel2.to: "color_obj";
+            rel1.to: "elm.color_obj";
+            rel2.to: "elm.color_obj";
          }
          description { state: "disabled" 0.0;
             inherit: "default" 0.0;
             color: 255 255 255 64;
          }
       }
-      part { name: "color_obj"; type: SWALLOW;
+      part { name: "elm.color_obj"; type: SWALLOW;
          clip_to: "clipper";
          description { state: "default" 0.0;
             rel1.offset: 3 3;

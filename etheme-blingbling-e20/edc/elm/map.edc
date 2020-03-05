@@ -541,16 +541,16 @@ group { name: "elm/map/marker/radio/default";
       }
    }
    programs {
-      program { name: "open";
-         signal: "mouse,clicked,1";
-         source: "base";
-         action: SIGNAL_EMIT "open" "elm";
-      }
-      program { name: "bringin";
-         signal: "mouse,down,1,double";
-         source: "base";
-         action: SIGNAL_EMIT "bringin" "elm";
-      }
+      //~ program { name: "open";
+         //~ signal: "mouse,clicked,1";
+         //~ source: "base";
+         //~ action: SIGNAL_EMIT "open" "elm";
+      //~ }
+      //~ program { name: "bringin";
+         //~ signal: "mouse,down,1,double";
+         //~ source: "base";
+         //~ action: SIGNAL_EMIT "bringin" "elm";
+      //~ }
    }
 }
 group { name: "elm/map/marker/radio2/default";
@@ -591,16 +591,16 @@ group { name: "elm/map/marker/radio2/default";
       }
    }
    programs {
-      program { name: "open";
-         signal: "mouse,clicked,1";
-         source: "base";
-         action: SIGNAL_EMIT "open" "elm";
-      }
-      program { name: "bringin";
-         signal: "mouse,down,1,double";
-         source: "base";
-         action: SIGNAL_EMIT "bringin" "elm";
-      }
+      //~ program { name: "open";
+         //~ signal: "mouse,clicked,1";
+         //~ source: "base";
+         //~ action: SIGNAL_EMIT "open" "elm";
+      //~ }
+      //~ program { name: "bringin";
+         //~ signal: "mouse,down,1,double";
+         //~ source: "base";
+         //~ action: SIGNAL_EMIT "bringin" "elm";
+      //~ }
    }
 }
 group { name: "elm/map/marker/empty/default";
@@ -650,16 +650,16 @@ group { name: "elm/map/marker/empty/default";
       }
    }
    programs {
-      program { name: "open";
-         signal: "mouse,clicked,1";
-         source: "base";
-         action: SIGNAL_EMIT "open" "elm";
-      }
-      program { name: "bringin";
-         signal: "mouse,down,1,double";
-         source: "base";
-         action: SIGNAL_EMIT "bringin" "elm";
-      }
+      //~ program { name: "open";
+         //~ signal: "mouse,clicked,1";
+         //~ source: "base";
+         //~ action: SIGNAL_EMIT "open" "elm";
+      //~ }
+      //~ program { name: "bringin";
+         //~ signal: "mouse,down,1,double";
+         //~ source: "base";
+         //~ action: SIGNAL_EMIT "bringin" "elm";
+      //~ }
    }
 }
 group { name: "elm/map/marker_bubble/default";

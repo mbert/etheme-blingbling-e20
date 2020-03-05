@@ -183,7 +183,7 @@ group { name: "elm/button/base/default";
          }
       }
       // used to force sizing of icon to follow label sizing nearby
-      part { name: "sizer.content"; type: TEXT;
+      part { name: "elm.sizer.content"; type: TEXT;
          mouse_events:  0;
          scale: 1;
          description { state: "default" 0.0;
@@ -289,7 +289,7 @@ group { name: "elm/button/base/default";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "icononly")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             get_state(PART:"elm.text", st, 30, vl);
             if (!strcmp(st, "disabled") || (!strcmp(st, "disabled_visible")))
@@ -307,7 +307,7 @@ group { name: "elm/button/base/default";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
             set_state(PART:"elm.text", "default", 0.0);
             get_state(PART:"elm.text", st, 30, vl);
@@ -326,11 +326,11 @@ group { name: "elm/button/base/default";
             get_state(PART:"elm.text", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             else {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
          }
       }
@@ -339,7 +339,7 @@ group { name: "elm/button/base/default";
          source: "elm";
          action:  STATE_SET "default" 0.0;
          target: "elm.swallow.content";
-         target: "sizer.content";
+         target: "elm.sizer.content";
       }
       program { name: "disable";
          signal: "elm,state,disabled";
@@ -570,7 +570,7 @@ group { name: "elm/button/base/hoversel_vertical/default";
          }
       }
       // used to force sizing of icon to follow label sizing nearby
-      part { name: "sizer.content"; type: TEXT;
+      part { name: "elm.sizer.content"; type: TEXT;
          mouse_events:  0;
          scale: 1;
          description { state: "default" 0.0;
@@ -650,7 +650,7 @@ group { name: "elm/button/base/hoversel_vertical/default";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "icononly")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             set_state(PART:"elm.text", "visible", 0.0);
          }
@@ -664,7 +664,7 @@ group { name: "elm/button/base/hoversel_vertical/default";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
             set_state(PART:"elm.text", "default", 0.0);
          }
@@ -678,11 +678,11 @@ group { name: "elm/button/base/hoversel_vertical/default";
             get_state(PART:"elm.text", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             else {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
          }
       }
@@ -691,7 +691,7 @@ group { name: "elm/button/base/hoversel_vertical/default";
          source: "elm";
          action:  STATE_SET "default" 0.0;
          target: "elm.swallow.content";
-         target: "sizer.content";
+         target: "elm.sizer.content";
       }
       program { name: "disable";
          signal: "elm,state,disabled";
@@ -840,7 +840,7 @@ group { name: "elm/button/base/hoversel_vertical_entry/default";
          }
       }
       // used to force sizing of icon to follow label sizing nearby
-      part { name: "sizer.content"; type: TEXT;
+      part { name: "elm.sizer.content"; type: TEXT;
          mouse_events:  0;
          scale: 1;
          description { state: "default" 0.0;
@@ -907,7 +907,7 @@ group { name: "elm/button/base/hoversel_vertical_entry/default";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "icononly")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             set_state(PART:"textvis", "visible", 0.0);
             set_state(PART:"elm.text", "visible", 0.0);
@@ -922,7 +922,7 @@ group { name: "elm/button/base/hoversel_vertical_entry/default";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
             set_state(PART:"textvis", "default", 0.0);
             set_state(PART:"elm.text", "default", 0.0);
@@ -937,11 +937,11 @@ group { name: "elm/button/base/hoversel_vertical_entry/default";
             get_state(PART:"textvis", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             else {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
          }
       }
@@ -950,7 +950,7 @@ group { name: "elm/button/base/hoversel_vertical_entry/default";
          source: "elm";
          action:  STATE_SET "default" 0.0;
          target: "elm.swallow.content";
-         target: "sizer.content";
+         target: "elm.sizer.content";
       }
    }
 }
@@ -1141,7 +1141,7 @@ group { name: "elm/button/base/anchor";
          }
       }
       // used to force sizing of icon to follow label sizing nearby
-      part { name: "sizer.content"; type: TEXT;
+      part { name: "elm.sizer.content"; type: TEXT;
          mouse_events:  0;
          scale: 1;
          description { state: "default" 0.0;
@@ -1232,7 +1232,7 @@ group { name: "elm/button/base/anchor";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "icononly")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             get_state(PART:"elm.text", st, 30, vl);
             if (!strcmp(st, "disabled") || (!strcmp(st, "disabled_visible")))
@@ -1250,7 +1250,7 @@ group { name: "elm/button/base/anchor";
             get_state(PART:"elm.swallow.content", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
             get_state(PART:"elm.text", st, 30, vl);
             if (!strcmp(st, "default") || (!strcmp(st, "visible")))
@@ -1268,11 +1268,11 @@ group { name: "elm/button/base/anchor";
             get_state(PART:"elm.text", st, 30, vl);
             if (!strcmp(st, "visible")) {
                set_state(PART:"elm.swallow.content", "visible", 0.0);
-               set_state(PART:"sizer.content", "visible", 0.0);
+               set_state(PART:"elm.sizer.content", "visible", 0.0);
             }
             else {
                set_state(PART:"elm.swallow.content", "icononly", 0.0);
-               set_state(PART:"sizer.content", "icononly", 0.0);
+               set_state(PART:"elm.sizer.content", "icononly", 0.0);
             }
          }
       }
@@ -1281,7 +1281,7 @@ group { name: "elm/button/base/anchor";
          source: "elm";
          action:  STATE_SET "default" 0.0;
          target: "elm.swallow.content";
-         target: "sizer.content";
+         target: "elm.sizer.content";
       }
       program { name: "disable";
          signal: "elm,state,disabled";
