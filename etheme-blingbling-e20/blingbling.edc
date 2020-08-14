@@ -42,7 +42,7 @@ collections {
 #include "edc/elm/hover.edc"
 #include "edc/elm/frame.edc"
 #include "edc/elm/video.edc"
-#include "edc/elm/progressbar.edc"
+//#include "edc/elm/progressbar.edc"
 #include "edc/elm/bg.edc"
 #include "edc/elm/popup.edc"
 #include "edc/elm/notify.edc"
