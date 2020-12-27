@@ -4,6 +4,7 @@ data {
    item: "theme/author"   "Raster & E17 Developers, E20 port by mbert with help from Duma, v.0.9 by the_waiter, Elementary code by 'rpil'.";
    item: "theme/license"  "GPL";
    item: "gtk-theme"      "Bling-GTK";
+   item: "icon-theme"     "Icons-Moksha-BlingBling";
    item: "version"        "110"; // theme api version. from 1.10 on we will check version to avoid compat issues
 }
 
@@ -41,7 +42,7 @@ collections {
 #include "edc/elm/hover.edc"
 #include "edc/elm/frame.edc"
 #include "edc/elm/video.edc"
-#include "edc/elm/progressbar.edc"
+//#include "edc/elm/progressbar.edc"
 #include "edc/elm/bg.edc"
 #include "edc/elm/popup.edc"
 #include "edc/elm/notify.edc"

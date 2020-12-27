@@ -2,7 +2,7 @@ group { name: "elm/check/base/default";
    images {
       image: "elm-check_base.png" COMP;
       image: "elm-check.png" COMP;
-      image: "elm-check2.png" COMP;
+      //~ image: "elm-check2.png" COMP;
    }
    parts {
       part { name: "bg";

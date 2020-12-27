@@ -2,6 +2,7 @@ images {
    image: "e17_temperature_base.png" COMP;
    image: "e17_temperature_mid.png" COMP;
    image: "e17_temperature_overlay.png" COMP;
+   image: "e17_temperature_high.png" COMP;
 }
 group {
    name: "e/modules/temperature/main";
@@ -51,6 +52,20 @@ group {
 	       normal: "e17_temperature_mid.png";
 	    }
 	 }
+      }
+       part { name: "temp_high";
+         clip_to: "temp_clip";
+          description { state: "default" 0.0;
+            rel1.to: "base";
+            rel2.to: "base";
+            image.normal: "e17_temperature_high.png";
+            visible: 0;
+         }
+          description { state: "high" 0.0;
+            inherit: "default";
+            color: 255 0 0 255;
+            visible: 1;
+         }
       }
       part {
 	 name: "overlay";
@@ -110,6 +125,11 @@ group {
 	    state: "faded" 0.0;
 	    color: 255 255 255 128;
 	 }
+	 description { state: "high" 0.0;
+            inherit: "default";
+            color: 255 0 0 255;
+            visible: 1;
+         }
       }
       part {
 	 // +10 -46 / 124
@@ -127,6 +147,9 @@ group {
 	       to: "base";
 	    }
 	 }
+	 description { state: "high" 0.0;
+            color: 0 0 0 0;
+         } 
       }
       part {
 	 // +10 -46 / 124
@@ -177,6 +200,36 @@ group {
 	 action: STATE_SET "faded" 0.0;
 	 target: "fade_clip";
       }
+		program {
+			signal: "e,state,high"; source: "e";
+			action: STATE_SET "default" 0.0;
+			target: "temp_clip";
+			target: "temp_high";
+			after: "pulse1";
+		}
+		program {
+			name: "pulse1"; 
+			action: STATE_SET "high" 0.0;
+			transition: DECELERATE 0.5;
+			target: "temp_clip";
+			target: "temp_high";
+			after: "pulse2";
+		}
+		program {
+			name: "pulse2"; 
+			action: STATE_SET "default" 0.0;
+			transition: ACCELERATE 0.5;
+			target: "temp_clip";
+			target: "temp_high";
+			after: "pulse1";
+		}
+		program {
+			signal: "e,state,ok"; source: "e";
+			action: STATE_SET "default" 0.0;
+			target: "temp";
+			target: "temp_high";
+			target: "temp_clip";
+		}
    }
 }
 
