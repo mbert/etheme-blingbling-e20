@@ -19,7 +19,7 @@ group {
       image: "elm-busy-7.png" COMP;
       image: "elm-busy-8.png" COMP;
       image: "elm-busy-9.png" COMP;
-      image: "elm-exclam.png" COMP;
+      //~ image: "elm-exclam.png" COMP;
       image: "elm-bd_button_close_shadow.png" COMP;
       image: "elm-bd_button_close_focused.png" COMP;
       image: "elm-bd_button_close_unfocused.png" COMP;

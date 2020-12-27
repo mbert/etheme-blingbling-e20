@@ -1182,8 +1182,8 @@ group { name: "elm/slider/horizontal/indicator/default";
    
    images {
       image: "elm-sl_bt_0.png" COMP;
-      image: "elm-sl_bt_1.png" COMP;
-      image: "elm-sl_bt_2.png" COMP;
+      //~ image: "elm-sl_bt_1.png" COMP;
+      //~ image: "elm-sl_bt_2.png" COMP;
       image: "elm-sl_bt_3.png" COMP;
       image: "elm-sl_bt2_0_0.png" COMP;
       image: "elm-sl_bt2_0_1.png" COMP;
