@@ -610,6 +610,7 @@ group {
       }
       part {
 	 name:           "e.text.label";
+	 scale: 1;
 	 type:           TEXT;
 	 effect:         SHADOW;
 	 mouse_events:   0;
