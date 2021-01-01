@@ -612,7 +612,8 @@ part {
 			program 
 			{
 				name: "go_active";
-				signal: "label_active";
+				//~ signal: "label_active";
+				signal: "mouse,in"; 
 				source: "*";
 				action: STATE_SET "visible" 0.0;
 				transition: SINUSOIDAL 0.5;
@@ -635,7 +636,8 @@ part {
 			program 
 			{
 				name: "go_passive";
-				signal: "label_passive";
+				//~ signal: "label_passive";
+				signal: "mouse,out"; 
 				source: "*";
 				action: STATE_SET "default" 0.0;
 				transition: SINUSOIDAL 1.0;		  
