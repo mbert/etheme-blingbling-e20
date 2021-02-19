@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MokshaBlingBling
+Comment=BlingBling theme for Moksha desktop created in oomox.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=MokshaBlingBling
+GtkTheme=MokshaBlingBling
+IconTheme=oomox-MokshaBling
+MetacityTheme=oomox-MokshaBling
