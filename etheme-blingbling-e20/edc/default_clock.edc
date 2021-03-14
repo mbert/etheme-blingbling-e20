@@ -59,7 +59,7 @@ group { name: "e/modules/clock/calendar/dayname";
 				}
 			}
 			part { name: "day"; type: IMAGE;
-				mouse_events: 0;
+				mouse_events: 1;
 				description { state: "default" 0.0;
 					color: 255 255 255 0;
 					image {
@@ -72,6 +72,10 @@ group { name: "e/modules/clock/calendar/dayname";
 					color: 255 255 255 255;
 				}
 			}
+      program { name: "date_clicked";
+            signal: "mouse,clicked,1*"; source: "day";
+            action: SIGNAL_EMIT "e,action,date,get" "";
+      }
 			part { name: "e.text.label";
 				type: TEXT;
 				effect: SHADOW;
@@ -104,7 +108,7 @@ group { name: "e/modules/clock/calendar/dayname";
 				description { state: "weeknumb" 0.0;
 					inherit: "default" 0.0;
 					text.size: 7;
-					text.align: 0.8 0.0;
+					text.align: 0.8 0.5;
 					color_class: "calendar_weekend";
 				} 
 			}
