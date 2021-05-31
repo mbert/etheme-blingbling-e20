@@ -719,6 +719,8 @@ group { name: "e/modules/clock/digital";
 
 group {
   name: "e/modules/clock/main";
+    min: 16 16;
+    max: 128 128;
     script {
         public clock_cb(val) {
             new buf[11];
