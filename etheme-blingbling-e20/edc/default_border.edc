@@ -291,6 +291,7 @@ group {
 	 name:           "title2";
 	 type:           TEXT;
 	 mouse_events:   0;
+   scale: 1;
 	 description {
 	    state: "default" 0.0;
 	    align: 1.0 0.0;
@@ -307,7 +308,7 @@ group {
 	       text_source:   "e.text.title";
 	       source:        "e.text.title";
 	       min:           0 1;
-         size: 10;
+         size: 9;
          text_class:    "title_bar";
 	    }
 	 }
@@ -813,7 +814,7 @@ group {
 	    align: 1.0 0.0;
 	    rel1 {
 	       relative: 1.0  0.0;
-	       offset:   9    4;
+	       offset:   9    6;
 	       to_x:     "t1";
 	    }
 	    rel2 {
@@ -1147,8 +1148,8 @@ group {
       }
 
       BORDER_BUTTON_ADV("close","close",0.0,0.0, 0,0,"whole", "whole",1.0,1.0,-1,5,"whole", "title2")
-      BORDER_BUTTON("maximize","maximize",0.0,0.0,3,0,"close",0.0,1.0,3,-1,"close")
-      BORDER_BUTTON("minimize","minimize",0.0,0.0,3,0,"maximize",0.0,1.0,3,-1,"maximize")
+      BORDER_BUTTON("maximize","maximize",0.0,0.0,3,0,"close",0.0,1.0,1,-1,"close")
+      BORDER_BUTTON("minimize","minimize",0.0,0.0,3,0,"maximize",0.0,1.0,1,-1,"maximize")
 
       part {
 	 name:          "e.event.icon";
