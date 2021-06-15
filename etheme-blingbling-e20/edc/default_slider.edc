@@ -99,6 +99,7 @@ group {
 	 name:           "e.text.label";
 	 type:           TEXT;
 	 mouse_events:   0;
+   scale: 1;
 	 clip_to: "clip";
 	 description {
 	    state:    "default" 0.0;
@@ -532,6 +533,7 @@ group {
 	 name:           "e.text.label";
 	 type:           TEXT;
 	 mouse_events:   0;
+   scale: 1;
 	 clip_to: "clip";
 	 description {
 	    state:    "default" 0.0;

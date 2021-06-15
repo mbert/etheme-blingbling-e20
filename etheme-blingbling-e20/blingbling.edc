@@ -147,4 +147,6 @@ collections {
 #include "edc/default_connman.edc"
 #include "edc/default_taskbar.edc"
 #include "edc/default_evrything.edc"
+#include "edc/default_xkbswitch.edc"
+#include "edc/default_notification.edc"
 }

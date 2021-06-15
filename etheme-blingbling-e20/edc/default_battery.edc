@@ -150,6 +150,7 @@ group {
 	 effect:         OUTLINE_SOFT_SHADOW;
 	 clip_to: "info_clip";
 	 mouse_events: 0;
+   scale: 1;
 	 description {
 	    state: "default" 0.0;
 	    align: 1.0 0.0;
@@ -182,6 +183,7 @@ group {
 	 effect:         OUTLINE_SOFT_SHADOW;
 	 clip_to: "info_clip";
 	 mouse_events: 0;
+   scale: 1;
 	 description {
 	    state: "default" 0.0;
 	    align: 1.0 0.0;
@@ -361,6 +363,7 @@ group {
          type: TEXT;
          effect: SOFT_SHADOW;
          mouse_events: 0;
+         scale: 1;
          description {
             state: "default" 0.0;
             min: 120 1;
@@ -368,7 +371,7 @@ group {
             fixed: 1 1;
             color: 255 255 255 255;
             rel1 {
-               relative: 1.0 0.5;
+               relative: 1.0 0.3;
                to_x:battery;
                offset: 0 -7;
             }
@@ -383,7 +386,7 @@ group {
                size: 10;
                min: 1 1;
                ellipsis: -1;
-               align: 0.5 1.0;
+               align: 1.0 0.3;
                text_class: "module_large";
             }
          }
@@ -393,6 +396,7 @@ group {
          type: TEXT;
          effect: SOFT_SHADOW;
          mouse_events: 0;
+         scale: 1;
          description {
             state: "default" 0.0;
             color: 255 255 255 255;
@@ -400,7 +404,7 @@ group {
             max: 300 48;
             fixed: 1 1;
             rel1 {
-               relative: 1.0 0.5;
+               relative: 1.0 0.6;
                to_x: battery;
                offset: 5 7;
             }
@@ -415,7 +419,7 @@ group {
                size: 10;
                min: 1 1;
                ellipsis: -1;
-               align: 0.5 1.0;
+               align: 1.0 0.7;
                text_class: "module_large";
             }
          }
