@@ -32,7 +32,7 @@ group { name:"e/modules/tasks/item";
             inherit: "default" 0.0;
             rel1.offset: -4 -4;
             rel2.offset: 3 3;
-            color: 255 255 255 128;
+            color: 255 255 255 210;
          }
          description { state: "hilighted" 0.0;
             inherit: "default" 0.0;
