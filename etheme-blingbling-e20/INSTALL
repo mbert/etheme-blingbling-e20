@@ -15,3 +15,11 @@ Option 2: build an rpm package
 In this directory just run ./rpmbuild.sh
 After successful build the '.src.rpm' and '.noarch.rpm' files will be created
 in 'build/SRPMS' and 'build/RPMS' respectively.
+
+
+Option 3: build a deb package
+-----------------------------
+
+In this directory just run ./debbuild.sh
+After successful build the '.deb' file will be created in the current
+directory.
