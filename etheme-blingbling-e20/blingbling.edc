@@ -3,7 +3,7 @@ data {
    item: "theme/version"  "0.9";
    item: "theme/author"   "Raster & E17 Developers, E20 port by mbert with help from Duma, v.0.9 by the_waiter, Elementary code by 'rpil'.";
    item: "theme/license"  "GPL";
-   item: "gtk-theme"      "MokshaBlingBling-GTK";
+   item: "gtk-theme"      "Bling-GTK";
    item: "icon-theme"     "Icons-Moksha-BlingBling";
    item: "version"        "110"; // theme api version. from 1.10 on we will check version to avoid compat issues
 }
