@@ -118,7 +118,7 @@ group { name: "e/modules/notification/main";
          scale: 1;
          desc { "default";
             rel1.relative: 0.0 0.0;
-            rel2.relative: 1.0 0.75;
+            rel2.relative: 1.0 1.0;
          }
          desc { "show";
             rel1.relative: 0.0 0.0;
@@ -150,7 +150,7 @@ group { name: "e/modules/notification/main";
          clip_to: "clip";
          description { state: "default" 0.0;
             rel2.offset: -13 -13;
-            min: 220 140;
+            min: 250 140;
          }
       }
       part { name: "notification.swallow.app_icon"; type: SWALLOW; mouse_events: 0;
@@ -166,33 +166,31 @@ group { name: "e/modules/notification/main";
             fixed: 1 1;
          }
       }
-      part { 
-         name: "notification.textblock.message"; 
-         type: TEXTBLOCK; 
-         mouse_events: 0;
-         scale: 1;
+     part { name: "notification.textblock.message"; type: TEXTBLOCK; mouse_events: 0;
          clip_to: "bodyclip";
+         scale: 1;
          description { state: "default" 0.0;
             align: 0.0 0.0;
             rel1.to_x: "notification.swallow.app_icon";
             rel1.to_y: "notification.text.title";
+            rel2.to: "base";
             rel1.relative: 1.0 1.0;
             rel1.offset: 4 4;
-            rel2.to: "base";
             rel2.relative: 0.95 0.7;
             //~ rel2.offset: -27 -13;
             text { style: "notification_style";
-               min: 0 0;
+               min: 0 1;
             }
             fixed: 1 1;
          }
       }
-      part { name: "message"; type: TEXTBLOCK; mouse_events: 0; scale: 1;
+      part { name: "message"; type: TEXTBLOCK; mouse_events: 0;
          description { state: "default" 0.0;
             align: 0.0 0.0;
             max: 500 99999;
             rel1.to_x: "notification.swallow.app_icon";
             rel1.to_y: "notification.text.title";
+            //~ rel2.to: "base";
             rel1.relative: 1.0 1.0;
             rel1.offset: 4 4;
             rel2.offset: -27 -13;
@@ -205,7 +203,6 @@ group { name: "e/modules/notification/main";
       }
       part { name: "notification.text.title"; type: TEXT; mouse_events: 0;
          clip_to: "titleclip";
-         //~ effect: SHADOW BOTTOM;
          scale: 1;
          description { state: "default" 0.0;
             rel1.to_x: "notification.swallow.app_icon";
@@ -222,6 +219,7 @@ group { name: "e/modules/notification/main";
                min: 0 1;
                align: 0.0 0.5;
                text_class: "notification_title";
+               //~ ellipsis: 1;
             }
             fixed: 0 1;
          }
@@ -264,7 +262,7 @@ group { name: "e/modules/notification/main";
             color: 0 0 0 0;
             color_class: "button_text";
             align: 0.0 1.0;
-            min: 65 0;
+            min: 50 0;
             text {
                min: 1 1;
                ellipsis: -1;
@@ -299,7 +297,7 @@ group { name: "e/modules/notification/main";
             rel2.relative: 0.5 1.0;
             color: 0 0 0 0;
             align: 0.5 1.0;
-            min: 65 0;
+            min: 50 0;
             text {
                min: 1 1;
                ellipsis: -1;
@@ -333,7 +331,7 @@ group { name: "e/modules/notification/main";
             rel2.relative: 1.0 1.0;
             color: 0 0 0 0;
             align: 1.0 1.0;
-            min: 65 0;
+            min: 50 0;
             text {
                min: 1 1;
                ellipsis: -1;
@@ -373,7 +371,7 @@ group { name: "e/modules/notification/main";
          action: SIGNAL_EMIT "notification,close" "theme";
       }
       program {
-         signal: "mouse,clicked,1"; source: "base";
+         signal: "mouse,clicked,1"; source: "bg";
          action: SIGNAL_EMIT "notification,find" "theme";
       }
         program {
