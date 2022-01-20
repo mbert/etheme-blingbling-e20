@@ -1,0 +1,8 @@
+Package: enlightenment-theme-blingbling-e20
+Version: @VERSION@
+Section: misc
+Priority: optional
+Depends: enlightenment (>=0.20)
+Architecture: all
+Maintainer: Martin Dietze <mdietze@gmail.com>
+Description: BlingBling Theme for Enlightenment 20

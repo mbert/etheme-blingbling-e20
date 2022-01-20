@@ -1,0 +1,42 @@
+%define _theme blingbling
+%define _title BlingBling
+
+Summary: Enlightenment Theme "%{_title}-E20"
+Name: enlightenment-theme-%{_theme}-e20
+Version: @VERSION@
+Release: 1
+License: GPLv3
+BuildArch: noarch
+Url: https://github.com/mbert/etheme-%{_theme}-e20
+Source: enlightenment-theme-%{_theme}-e20-%{version}.tar.gz
+
+Requires: enlightenment >= 0.20.0
+
+%description
+This is the classic '%{_theme}' theme for enlightenment versions > 0.20.
+
+%prep
+%setup -q
+
+%build
+./build.sh
+
+%install
+mkdir -p  "%{buildroot}/"
+
+mkdir -p  "%{buildroot}/%{_defaultdocdir}/%{name}"
+cp README.md "%{buildroot}/%{_defaultdocdir}/%{name}"
+
+cp LICENSE "%{buildroot}/%{_defaultdocdir}/%{name}/"
+
+mkdir -p "%{buildroot}/%{_datadir}/elementary/themes/"
+cp %{_theme}.edj "%{buildroot}/%{_datadir}/elementary/themes/"
+
+%files
+%defattr(0644,root,root)
+%doc README.md LICENSE
+%{_datadir}/elementary/themes/*.edj
+
+%changelog
+* Sun Jun 20 2021 mbert
+- Version bump 1.0.0 first rpm version
