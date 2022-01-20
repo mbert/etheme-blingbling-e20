@@ -316,6 +316,11 @@ group {
 	    color: 255 255 255 164;
 	 }
       }
+   swallow { "e.background"; clip: "clip";
+      desc { "default";
+      }
+      desc { "hidden"; inherit; hid; }
+      } 
       part {
 	 name:          "e.swallow.content";
 	 type:          SWALLOW;
