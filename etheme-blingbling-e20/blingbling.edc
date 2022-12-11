@@ -1,6 +1,6 @@
 data {
    item: "theme/name"     "BlingBling";
-   item: "theme/version"  "1.1.0";
+   item: "theme/version"  "1.2.0";
    item: "theme/author"   "Raster & E17 Developers, E20 port by mbert with help from Duma, v.0.9 by the_waiter, Elementary code by 'rpil'.";
    item: "theme/license"  "GPL";
    item: "gtk-theme"      "Bling-GTK";
